@@ -1,0 +1,373 @@
+html {
+  background-color: #fff;
+  font-size: 1.5rem;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 62.5%;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 20%;
+}
+
+/***************************************
+          Hamburger & Nav bar
+***************************************/
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'AvenirLTPro-Roman';
+    width: 16%;
+    }
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.logoNav{
+  display: none;
+  width: 40%;
+}
+
+
+ /*******************
+
+       main
+
+*********************/
+
+
+.title{
+  display: inline-block;
+  width: 12%;
+  position: fixed;
+  margin-left: -9%;
+  margin-top: 2%;
+  font-family: 'AvenirLTPro-Heavy';
+}
+
+.title a{
+  color: black;
+  text-decoration: none;
+  font-size: 61%;
+}
+
+.container{
+  width: 86%;
+  height: auto;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 4%;
+}
+
+.grotto_img{
+  box-sizing: border-box;
+  width: 100%;
+  height: 540px;
+  background-image: url(../images/grotto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.grotto_text{
+  width: 100%;
+  height: 540px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: ease-in-out 0.8s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grotto_img:hover .grotto_text, .ici_et_ailleurs_img:hover .ici_et_ailleurs_text, .songe_ete_img:hover .songe_ete_text, .villa_img:hover .villa_text, .display_img:hover .display_text, .se_poser_img:hover .se_poser_text, .louvre_img:hover .louvre_text, .notre_dame_img:hover .notre_dame_text{
+  opacity: 1;
+}
+
+h2, h3{
+  color: white;
+  font-size: 1rem;
+  font-family: 'AvenirLTPro-Heavy';
+}
+
+a{
+  text-decoration: none;
+}
+
+.ici_and_songe{
+  margin: 30px 0;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ici_and_songe a {
+  width: 48%;
+}
+
+.ici_et_ailleurs_img{
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/ici-et-ailleurs.jpg);
+  background-size: 500px 375px;
+  background-position: center;
+}
+
+.ici_et_ailleurs_text, .songe_ete_text{
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: ease-in-out 0.8s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.songe_ete_img{
+  box-sizing: border-box;
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/songe-ete.jpg);
+  background-size: 462px 300px;
+}
+.songe_ete_text h3{
+  text-align: center;
+}
+
+.villa_img{
+  box-sizing: border-box;
+  width: 100%;
+  height: 540px;
+  background-image: url(../images/villa.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.villa_text{
+  width: 100%;
+  height: 540px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: ease-in-out 0.8s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display_seposer_louvre{
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.display_seposer_louvre a {
+  width: 28%;
+}
+
+.display_img{
+  box-sizing: border-box;
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/display.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.se_poser_img{
+  box-sizing: border-box;
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/se-poser.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.louvre_img{
+  box-sizing: border-box;
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/louvre.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.display_text, .se_poser_text, .louvre_text{
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: ease-in-out 0.8s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notre_dame_img{
+  box-sizing: border-box;
+  width: 100%;
+  height: 540px;
+  background-image: url(../images/notre-dame.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.notre_dame_text{
+  width: 100%;
+  height: 540px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: ease-in-out 0.8s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+
+/***************************************
+                Footer
+***************************************/
+
+.footerTab {
+  width: 100%;
+  margin: 0 auto;
+  height: 240px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+  .footerTab ul {
+    list-style: none;
+    color: white; }
+    .footerTab ul a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;}
+
+
+
+/***************************************
+                Media Queries
+***************************************/
+@media all and (max-width: 910px)
+{
+  body{
+    width: 100%;
+  }
+  Main {
+    display: inline-block;
+  }
+  .image img{
+    width: 100%;
+  }
+  .description{
+    width: 86%;
+    margin: 7%;
+  }
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 819px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    display: block;
+    margin-left: 36%;
+    width: 4%;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 819px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    margin-left: 84%;
+  }
+  .topnav.responsive a {
+    display: flex;
+    width: 39%;
+    margin-right: 2%;
+  }
+
+
+  .container, .ici_and_songe, .display_seposer_louvre{
+    width: 90%;
+    height: 90%;
+  }
+
+  .ici_and_songe, .display_seposer_louvre{
+    display: block;
+    width: 90%;
+  }
+
+  .display_text, .se_poser_text, .louvre_text{
+    width: 89%;
+  }
+  
+  .ici_and_songe div, .display_seposer_louvre div{
+    margin-bottom: 17%;
+    width: 111%;
+  }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+
+  .topnav{
+    width: 91%;
+  }
+
+  .title{
+    display: none;
+  }
+  .logoNav{
+    display: inline;
+    font-family: 'AvenirLTPro-Heavy';
+    font-weight: bold;
+  }
+  .topnav a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 14px;
+      font-family: 'AvenirLTPro-Roman';
+      width: 39%;
+      }
+}
+	
