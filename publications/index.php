@@ -1,34 +1,24 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Haddou-Dufourcq.com</title>
-  <meta name="description" content="Site d'architecture"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="styles/publication.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,700,700i" rel="stylesheet">
-  <link rel="stylesheet" href="../fonts/MyFontsWebfontsKit.css">
-</head>
+<?php
+    $title = 'Publications';
+    $metaname = '';
+    $css = 'styles/publications.css';
+    $fonts = '../fonts/MyFontsWebfontsKit.css';
+    include '../head.php';
+?>
   <body>
-    <header>
-      <div class="topnav" id="myTopnav">
-        <a href="../index.html" class="activ">projets</a>
-        <a href="../about/about.html">à propos</a>
-        <a href="#">publications</a>
-        <a href="../contact/contact.html">contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    </header>
+  <?php
+    $hrefProjects = '../index.php';
+    $hrefAbout = '../about/';
+    $hrefPublications = '../publications/';
+    $hrefContact = '../contact/';
+    include '../header.php';
+  ?>
 
     <div class="title">
-      <a href="../index.html">
+      <a href="../index.php">
       <h1> kim haddou & florent dufourcq</h1>
       </a>
     </div>
-
     <div class="container">
       <main>
         <div class="article">
@@ -44,20 +34,10 @@
           <p><a href="https://mobile.lemonde.fr/m-design-deco/article/2018/07/05/design-parade-toulon-sur-les-traces-de-la-mysterieuse-mlle-oops_5326504_4497702.html"> <b>LE MONDE</b>- <i>juillet 2018</i> </a></p>
           <p><a href="https://www.telerama.fr/scenes/design-parade-toulon-eloge-de-lhedonisme,n5713606.php"> <b>TELERAMA</b>- <i>juillet 2018</i> </a></p>
           <p><a href="https://www.sightunseen.com/2018/07/design-parade-villa-noailles-philippe-malouin-pierre-yovanovitch/"> <b>SIGHT UNSEEN </b>- <i>juillet 2018</i> </a></p>
-
         </div>
       </main>
-      <footer>
-        <!-- <div class="footerTab">
-          <ul>
-            <a href="#">Crédits</a>
-          </ul>
-          <ul>
-            <a href="#">Mentions légales</a>
-          </ul>
-        </div> -->
-      </footer>
-      <script type="text/javascript" src="scripts/hamburger.js"></script>
+    </div>
+    <script type="text/javascript" src="scripts/hamburger.js"></script>
   </body>
 </html>
 		

@@ -1,71 +1,47 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Villa 1920</title>
-  <meta name="description" content="Site d'architecture"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="styles/villa_1920.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,700,700i" rel="stylesheet">
-  <link rel="stylesheet" href="../fonts/MyFontsWebfontsKit.css">
-</head>
+<?php
+    $title = 'Villa 1920';
+    $metaname = '';
+    $css = 'styles/villa_1920.css';
+    $fonts = '../fonts/MyFontsWebfontsKit.css';
+    include '../head.php';
+?>
   <body>
-    <header>
-      <div class="topnav" id="myTopnav">
-        <a href="../index.html" class="activ">projets</a>
-        <a href="../about/about.html">à propos</a>
-        <a href="../publication/publication.html">publications</a>
-        <a href="../contact/contact.html">contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    </header>
+  <?php
+    $hrefProjects = '../index.php';
+    $hrefAbout = '../about/';
+    $hrefPublications = '../publications/';
+    $hrefContact = '../contact/';
+    include '../header.php';
+  ?>
 
     <div class="title">
-      <a href="../index.html">
+      <a href="../index.php">
       <h1> kim haddou & florent dufourcq</h1>
       </a>
     </div>
     <div class="container">
-
-      <!-- Slideshow container -->
       <div class="slideshow-container">
-
-        <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
           <img src="../images/projets/villa_1920/kim-haddou-florent-dufourcq-villa-1.png" style="width:100%">
         </div>
-
         <div class="mySlides fade">
           <img src="../images/projets/villa_1920/kim-haddou-florent-dufourcq-villa-2.png" style="width:100%">
         </div>
-
         <div class="mySlides fade">
           <img src="../images/projets/villa_1920/kim-haddou-florent-dufourcq-villa-3.png" style="width:100%">
         </div>
-
         <div class="mySlides fade">
           <img src="../images/projets/villa_1920/kim-haddou-florent-dufourcq-villa-4.png" style="width:100%">
         </div>
-
         <div class="mySlides fade">
           <img src="../images/projets/villa_1920/kim-haddou-florent-dufourcq-villa-5.png" style="width:100%">
         </div>
-
         <div class="mySlides fade">
           <img src="../images/projets/villa_1920/kim-haddou-florent-dufourcq-villa-6.jpg" style="width:100%">
         </div>
-
-        <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
       </div>
-
-
-      <!-- The dots/circles -->
       <div class="dotDiv">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
@@ -82,16 +58,6 @@
         </div>
       </div>
     </div>
-    <!--<footer>
-      <div class="footerTab">
-        <ul>
-          <a href="#">Crédits</a>
-        </ul>
-        <ul>
-          <a href="#">Mentions légales</a>
-        </ul>
-      </div>
-    </footer>-->
     <script type="text/javascript" src="scripts/hamburger.js"></script>
     <script type="text/javascript" src="scripts/slider.js"></script>
   </body>
