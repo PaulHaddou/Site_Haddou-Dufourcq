@@ -1,34 +1,24 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Kim Haddou & Florent Dufourcq</title>
-  <meta name="description" content="Interior design studio based in Paris - Grand Prix Van Cleef and Arpels - Design Parade Toulon 2018 - Villa Noailles"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="styles/projects.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,700,700i" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/MyFontsWebfontsKit.css">
-  <link rel="icon" href="/images/favicon.ico" />
-</head>
+<?php
+    $title = 'Kim Haddou & Florent Dufourcq';
+    $metaname = 'Interior design studio based in Paris - Grand Prix Van Cleef and Arpels - Design Parade Toulon 2018 - Villa Noailles';
+    $css = 'styles/projects.css';
+    include 'head.php';
+?>
   <body>
-    <header>
-      <div class="topnav" id="myTopnav">
-        <a href="#" class="activ">projets</a>
-        <a href="../about/about.html">à propos</a>
-        <a href="../publication/publication.html">publications</a>
-        <a href="../contact/contact.html">contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    </header>
+  <?php
+    $hrefProjects = 'www.haddou-dufourcq.com';
+    $hrefAbout = 'about/';
+    $hrefPublications = 'publications/';
+    $hrefContact = 'contact/';
+    include 'header.php';
+  ?>
 
     <div class="title">
-      <a href="index.html">
+      <a href="www.haddou-dufourcq.com">
       <h1> kim haddou & florent dufourcq</h1>
       </a>
     </div>
+    <main>
       <div class="container">
         <div class="grotto">
           <a href="grotto/grotto.html">
