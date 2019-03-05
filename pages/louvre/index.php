@@ -8,9 +8,9 @@
   <body>
   <?php
     $hrefProjects = '../../index.php';
-    $hrefAbout = '../../about/';
-    $hrefPublications = '../../publications/';
-    $hrefContact = '../../contact/';
+    $hrefAbout = '../about/';
+    $hrefPublications = '../publications/';
+    $hrefContact = '../contact/';
     include '../../header.php';
   ?>
 
