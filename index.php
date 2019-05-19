@@ -6,6 +6,7 @@
     include 'head.php';
 ?>
   <body>
+  <!-------------- HEADER---------------->
   <?php
     $hrefProjects = 'www.haddou-dufourcq.com';
     $hrefAbout = 'pages/about/';
@@ -13,7 +14,7 @@
     $hrefContact = 'pages/contact/';
     include 'header.php';
   ?>
-
+  <!---------- LOGO & CONTAINER --------->
     <div class="title">
       <a href="#">
       <p> kim haddou & </p>
@@ -31,14 +32,43 @@
              </div>
           </a>
         </div>
-        <div class="ici_and_songe">
-          <a href="pages/ici_ailleurs/">
+        <div class="american_vintage">
+          <a href="pages/american_vintage/">
+             <div class="american_vintage_img">
+               <div class="american_vintage_text">
+                <h2>american vintage</h2>
+               </div>
+             </div>
+          </a>
+        </div>
+        <div class="elise_djo_bourgeois">
+          <a href="pages/elise_djo_bourgeois/">
+             <div class="elise_djo_bourgeois_img">
+               <div class="elise_djo_bourgeois_text">
+                <h2>élise djo-bourgeois</h2>
+               </div>
+             </div>
+          </a>
+        </div>
+        <div class="hyeres_34">
+          <a href="pages/hyeres_34/">
+             <div class="hyeres_34_img">
+               <div class="hyeres_34_text">
+                <h2>hyères_34</h2>
+               </div>
+             </div>
+          </a>
+        </div>
+        <div class="ici_et_ailleurs">
+          <a href="pages/ici_et_ailleurs/">
             <div class="ici_et_ailleurs_img">
               <div class="ici_et_ailleurs_text">
                 <h3>ici & ailleurs</h3>
               </div>
             </div>
           </a>
+        </div>
+        <div class ="songe_ete">
           <a href="pages/songe_ete/">
             <div class="songe_ete_img">
               <div class="songe_ete_text">
@@ -56,7 +86,7 @@
              </div>
           </a>
         </div>
-        <div class="display_seposer_louvre">
+        <div class="display">
           <a href="pages/display/">
             <div class="display_img">
               <div class="display_text">
@@ -64,6 +94,8 @@
               </div>
             </div>
           </a>
+        </div>
+        <div class ="se_poser">
           <a href="pages/se_poser/">
             <div class="se_poser_img">
               <div class="se_poser_text">
@@ -71,6 +103,8 @@
               </div>
             </div>
           </a>
+        </div>
+        <div class ="louvre">
           <a href="pages/louvre/">
             <div class="louvre_img">
               <div class="louvre_text">
