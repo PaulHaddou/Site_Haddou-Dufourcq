@@ -14,20 +14,17 @@
     $hrefContact = 'pages/contact/';
     include 'header.php';
   ?>
-  <!---------- LOGO & CONTAINER --------->
-    <div class="title">
-      <a href="#">
-      <p> kim haddou & </p>
-      <p> florent dufourcq </p>
-      </a>
-    </div>
+  <!---------- CONTAINER --------->
     <main>
+      <div class="headerBackground">
+      </div>
       <div class="container">
         <div class="grotto">
           <a href="pages/grotto/">
              <div class="grotto_img">
                <div class="grotto_text">
                 <h2>grotto</h2>
+                <h2>design parade</h2>
                </div>
              </div>
           </a>
