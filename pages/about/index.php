@@ -16,9 +16,7 @@
   ?>
     <div class="container">
       <main>
-        <div class="image">
-          <img src="../../images/a_propos/kim-haddou-florent-dufourcq.jpg" alt="image de Kim Haddou et Florent Dufourcq">
-        </div>
+        <img class="image" src="../../images/a_propos/kim-haddou-florent-dufourcq.jpg" alt="image de Kim Haddou et Florent Dufourcq">
         <div class="description">
           <p>
             Diplomés de l'école Camondo en 2015 avec les félicitations du jury, Kim Haddou et Florent Dufourcq vivent et travaillent à Paris.

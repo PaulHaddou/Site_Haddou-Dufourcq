@@ -1,3 +1,9 @@
+.topnav a:nth-child(3)
+{
+  font-style: italic;
+  text-decoration:underline;
+}
+
 main{
   display: flex;
   width: 723px;
@@ -18,26 +24,6 @@ main{
 }
 
 
-/***************************************
-                Footer
-***************************************/
-
-
-.footerTab {
-  width: 100%;
-  margin: 0 auto;
-  height: 240px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-  .footerTab ul {
-    list-style: none;
-    color: white; }
-    .footerTab ul a {
-      text-decoration: none;
-      color: black;
-      font-weight: bold;}
 
 /***************************************
                 Media Queries

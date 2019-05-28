@@ -1,18 +1,26 @@
-main{
+main
+{
   display: flex;
-  width: 723px;
+  width: 70%;
   margin-left: 3%;
   align-items: center;
+  justify-content: space-around;
 }
 
-.image img{
-  width: 74%;
-  margin-top: 3%;
+.topnav a:nth-child(2)
+{
+  font-style: italic;
+  text-decoration:underline;
+}
+.image 
+{
+  width: 52%;
 }
 
-.description{
+.description
+{
   margin-top: 3%;
   font-family: 'AvenirLTPro-Light';
   font-size: 13px;
-  margin-left: -11%;
+  width: 45%;
 }
