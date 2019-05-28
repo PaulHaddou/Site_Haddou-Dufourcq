@@ -1,8 +1,8 @@
 <?php
     $title = 'Louvre';
     $metaname = '';
-    $css = 'styles/louvre.css';
-    $fonts = '../../fonts/MyFontsWebfontsKit.css';
+    $css = '../../styles/projectsPages.css';
+    $cssHeader = '../../styles/header.css';
     include '../../head.php';
 ?>
   <body>
@@ -13,13 +13,6 @@
     $hrefContact = '../contact/';
     include '../../header.php';
   ?>
-
-    <div class="title">
-      <a href="../../index.php">
-      <p> kim haddou & </p>
-      <p> florent dufourcq </p>
-      </a>
-    </div>
     <div class="container">
       <div class="slideshow-container">
         <div class="mySlides fade">

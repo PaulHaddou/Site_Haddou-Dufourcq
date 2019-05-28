@@ -2,6 +2,7 @@
     $title = 'Publications';
     $metaname = '';
     $css = 'styles/publications.css';
+    $cssHeader = '../../styles/header.css';
     $fonts = '../../fonts/MyFontsWebfontsKit.css';
     include '../../head.php';
 ?>
@@ -13,13 +14,6 @@
     $hrefContact = '../contact/';
     include '../../header.php';
   ?>
-
-    <div class="title">
-      <a href="../../index.php">
-      <p> kim haddou & </p>
-      <p> florent dufourcq </p>
-      </a>
-    </div>
     <div class="container">
       <main>
         <div class="article">

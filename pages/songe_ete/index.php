@@ -1,7 +1,8 @@
 <?php
     $title = 'Songe été';
     $metaname = '';
-    $css = 'styles/songe_ete.css';
+    $css = '../../styles/projectsPages.css';
+    $cssHeader = '../../styles/header.css';
     $fonts = '../../fonts/MyFontsWebfontsKit.css';
     include '../../head.php';
 ?>
@@ -13,26 +14,19 @@
     $hrefContact = '../contact/';
     include '../../header.php';
   ?>
-
-    <div class="title">
-      <a href="../../index.php">
-      <p> kim haddou & </p>
-      <p> florent dufourcq </p>
-      </a>
-    </div>
     <div class="container">
       <div class="slideshow-container">
         <div class="mySlides fade">
-          <img src="../../images/projets/songe_été/kim-haddou-florent-dufourcq-Songe1.jpg" style="width:100%">
+          <img src="../../images/projets/songe_ete/kim-haddou-florent-dufourcq-Songe1.jpg" style="width:100%">
         </div>
         <div class="mySlides fade">
-          <img src="../../images/projets/songe_été/kim-haddou-florent-dufourcq-Songe2.jpg" style="width:100%">
+          <img src="../../images/projets/songe_ete/kim-haddou-florent-dufourcq-Songe2.jpg" style="width:100%">
         </div>
         <div class="mySlides fade">
-          <img src="../../images/projets/songe_été/kim-haddou-florent-dufourcq-Songe3.jpg" style="width:100%">
+          <img src="../../images/projets/songe_ete/kim-haddou-florent-dufourcq-Songe3.jpg" style="width:100%">
         </div>
         <div class="mySlides fade">
-          <img src="../../images/projets/songe_été/kim-haddou-florent-dufourcq-Songe5.jpg" style="width:100%">
+          <img src="../../images/projets/songe_ete/kim-haddou-florent-dufourcq-Songe5.jpg" style="width:100%">
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
