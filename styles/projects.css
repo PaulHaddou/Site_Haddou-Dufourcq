@@ -5,7 +5,7 @@
 }
 
 .container{
-  width: 90%;
+  width: 1134px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -15,7 +15,7 @@
 .container > div
 {
   width: 550px;
-  margin-bottom: 10vh;
+  margin-bottom: 54px;
 }
 
 .container div a > div :hover
@@ -52,12 +52,12 @@
 .american_vintage
 {
   width: 48%;
-  margin-bottom: 10vh;
+  margin-bottom: 54px;
 }
 
 .american_vintage_img{
   width: 100%;
-  height: 70vh;
+  height: 404px;
   background-image: url(../images/miniatures/Sarah_Mei_Herman-Studio_Haddou_Dufourcq-American_Vintage-Luc_Bertrand1.jpg);
   background-size: 100% 100%;
   background-position: center;
@@ -82,8 +82,8 @@
 .elise_djo_bourgeois
 {
   width: 48%;
-  margin-top: -4vmin;
-  margin-bottom: 10vh;
+  margin-top: -25px;
+  margin-bottom: 54px;
 }
 
 .elise_djo_bourgeois_img{
@@ -113,8 +113,8 @@
 .hyeres_34
 {
   width: 48%;
-  margin-top: -64vmin;
-  margin-bottom: 10vh;
+  margin-top: -370px;
+  margin-bottom: 54px;
 }
 
 .hyeres_34_img{
@@ -144,13 +144,13 @@
 .ici_et_ailleurs
 {
   width: 48%;
-  margin-top: -4vmin;
-  margin-bottom: 10vh;
+  margin-top: -25px;
+  margin-bottom: 54px;
 }
 
 .ici_et_ailleurs_img{
   width: 100%;
-  height: 70vh;
+  height: 404px;
   background-image: url(../images/miniatures/ici-et-ailleurs.jpg);
   background-size: 100% 100%;
   background-position: center;
@@ -174,14 +174,14 @@
 .songe_ete
 {
   width: 48%;
-  margin-top: -64vmin;
-  margin-bottom: 10vh;
+  margin-top: -370px;
+  margin-bottom: 54px;
 }
 
 .songe_ete_text
 {
   width: 100%;
-  height: 70vh;
+  height: 404px;
   background-color: rgba(0, 0, 0, 0.4);
   opacity: 0;
   transition: ease-in-out 0.8s;
@@ -193,9 +193,9 @@
 .songe_ete_img{
   box-sizing: border-box;
   width: 100%;
-  height: 70vh;
+  height: 404px;
   background-image: url(../images/miniatures/songe-ete.jpg);
-  background-size: 462px 70vh;
+  background-size: 462px 404px;
 }
 .songe_ete_text h3{
   text-align: center;
@@ -205,15 +205,15 @@
 .villa
 {
   width: 48%;
-  margin-top: -4vmin;
-  margin-bottom: 10vh;
+  margin-top: -25px;
+  margin-bottom: 54px;
 }
 
 .villa_img
 {
   box-sizing: border-box;
   width: 100%;
-  height: 70vh;
+  height: 404px;
   background-image: url(../images/miniatures/villa.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -233,16 +233,15 @@
 
 .display
 {
-  height: 92vh;
   width: 48%;
-  margin-top: -63vmin;
-  margin-bottom: 10vh;
+  margin-top: -370px;
+  margin-bottom: 54px;
 }
 
 .display_img{
   box-sizing: border-box;
   width: 100%;
-  height: 70vh;
+  height: 404px;
   background-image: url(../images/miniatures/display.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -252,14 +251,14 @@
 .louvre
 {
   width: 48%;
-  margin-top: -4vmin;
-  margin-bottom: 10vh;
+  margin-top: -25px;
+  margin-bottom: 54px;
 }
 
 .louvre_img{
   box-sizing: border-box;
   width: 100%;
-  height: 70vh;
+  height: 404px;
   background-image: url(../images/miniatures/louvre.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -281,8 +280,8 @@
 .notre_dame
 {
   width: 48%;
-  margin-top: -63vmin;
-  margin-bottom: 10vh;
+  margin-top: -370px;
+  margin-bottom: 54px;
 }
 
 .notre_dame_img{

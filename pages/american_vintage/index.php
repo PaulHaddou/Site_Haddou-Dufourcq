@@ -1,5 +1,5 @@
 <?php
-    $title = 'grotto';
+    $title = 'american vintage';
     $metaname = '';
     $css = '../../styles/projectsPages.css';
     $cssHeader = '../../styles/header.css';
