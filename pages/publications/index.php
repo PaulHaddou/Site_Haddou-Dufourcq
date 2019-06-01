@@ -17,14 +17,15 @@
     <div class="container">
       <main>
         <div class="article">
+          <p><a href="https://www.elledecor.com/es/decoracion/a26760842/instagram-estanteria-obra-gotele/"> ELLE DECOR Spain - <i>mars 2019</i> </a></p>
           <p><a href="../../pdf/marie-claire-Octobre-2018-kim-haddou-florent-dufourcq.pdf"> MARIE-CLAIRE MAISON - <i>octobre 2018</i> </a></p>
-          <p><a href="https://www.architecturaldigest.com/story/ultimate-built-in-bookshelf-diy"> ARCHITECTURAL Digest- <i>octobre 2018</i> </a></p>
+          <p><a href="https://www.architecturaldigest.com/story/ultimate-built-in-bookshelf-diy"> ARCHITECTURAL DIGEST - <i>octobre 2018</i> </a></p>
           <p><a href="../../pdf/MILK Decoration Design Parade Toulon Septembre 2018.pdf"> MILK DECORATION- <i>septembre 2018</i> </a></p>
           <p><a href="https://www.ad-magazin.de/article/design-parade-toulon-haddou-dufourcq"> AD Germany - <i>septembre 2018</i> </a></p>
           <p><a href="../../pdf/IDEAT Design Parade Toulon Septembre 2018.pdf"> IDEAT- <i>septembre 2018</i> </a></p>
           <p><a href="../../pdf/elle-deco-septembre-2018-kim-haddou-florent-dufourcq.pdf"> ELLE DECORATION- <i>septembre 2018</i> </a></p>
           <p><a href="../../pdf/IDEAT Design Parade Toulon Juillet-Aout 2018.pdf"> IDEAT- <i>juillet-août 2018</i> </a></p>
-          <p><a href="../../pdf/grazia-Juillet-2018-kim-haddou-florent-dufourcq.pdf"> GRAZIA- <i>Juillet 2018</i> </a></p>
+          <p><a href="../../pdf/grazia-Juillet-2018-kim-haddou-florent-dufourcq.pdf"> GRAZIA- <i>juillet 2018</i> </a></p>
           <p><a href="https://www.admagazine.fr/design/actualite-design/diaporama/le-meilleur-de-la-design-parade-2018/51808#le-meilleur-de-la-design-parade-2018_image3"> AD France- <i>juillet 2018</i> </a></p>
           <p><a href="https://mobile.lemonde.fr/m-design-deco/article/2018/07/05/design-parade-toulon-sur-les-traces-de-la-mysterieuse-mlle-oops_5326504_4497702.html"> LE MONDE- <i>juillet 2018</i> </a></p>
           <p><a href="https://www.telerama.fr/scenes/design-parade-toulon-eloge-de-lhedonisme,n5713606.php"> TELERAMA- <i>juillet 2018</i> </a></p>

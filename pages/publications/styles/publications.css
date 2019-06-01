@@ -13,11 +13,10 @@ main{
 
 .article{
   margin-left: 5%;
-  margin-top: 3%;
 }
 .article a{
   text-decoration: none;
-  font-family: 'Playfair Display';
+  font-family: 'Magneta-Thin';
   color: black;
   font-size: 13px;
 

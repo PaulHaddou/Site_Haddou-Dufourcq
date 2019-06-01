@@ -33,6 +33,7 @@
              <div class="american_vintage_img">
                <div class="american_vintage_text">
                 <h2>american vintage</h2>
+                <h2>coalescence</h2>
                </div>
              </div>
           </a>
@@ -42,6 +43,7 @@
              <div class="elise_djo_bourgeois_img">
                <div class="elise_djo_bourgeois_text">
                 <h2>élise djo-bourgeois</h2>
+                <h2>villa noailles</h2>
                </div>
              </div>
           </a>
@@ -50,7 +52,8 @@
           <a href="pages/hyeres_34/">
              <div class="hyeres_34_img">
                <div class="hyeres_34_text">
-                <h2>hyères_34</h2>
+                <h2>hyères 34</h2>
+                <h2>palais royal</h2>
                </div>
              </div>
           </a>
@@ -87,15 +90,6 @@
             <div class="display_img">
               <div class="display_text">
                 <h3>display</h3>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class ="se_poser">
-          <a href="pages/se_poser/">
-            <div class="se_poser_img">
-              <div class="se_poser_text">
-                <h3>se poser</h3>
               </div>
             </div>
           </a>

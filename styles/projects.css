@@ -7,7 +7,6 @@
 .container{
   width: 90%;
   margin: 0 auto;
-  /* margin-top: 4%; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -27,12 +26,6 @@
 {
   font-size: 0.7rem;
   font-style: italic;
-}
-
-
-.grotto 
-{
-  /* margin-top: 0; */
 }
 
 .grotto_img{
@@ -56,10 +49,6 @@
   justify-content: center;
   flex-direction: column;
 }
-
-
-
-
 .american_vintage
 {
   width: 48%;
@@ -85,6 +74,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 
@@ -115,6 +105,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 
@@ -145,6 +136,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 
@@ -257,29 +249,10 @@
   background-size: cover;
 }
 
-
-.se_poser
-{
-  width: 48%;
-  margin-top: -4vmin;
-  margin-bottom: 10vh;
-}
-
-.se_poser_img{
-  box-sizing: border-box;
-  width: 100%;
-  height: 70vh;
-  background-image: url(../images/miniatures/se-poser.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-
 .louvre
 {
   width: 48%;
-  margin-top: -63vmin;
+  margin-top: -4vmin;
   margin-bottom: 10vh;
 }
 
@@ -308,7 +281,7 @@
 .notre_dame
 {
   width: 48%;
-  margin-top: -4vmin;
+  margin-top: -63vmin;
   margin-bottom: 10vh;
 }
 

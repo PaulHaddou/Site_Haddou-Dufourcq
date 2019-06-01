@@ -49,7 +49,7 @@
         <h2>grotto</h2>
         <div class="line"></div>
         <div class="text">
-          <p class="texttitle">Concours Design Parade Toulon, France, 2018 - Projet lauréat</p>
+          <p class="texttitle">Concours Design Parade Toulon, France, 2018 - Projet lauréat -</p>
           <p class="texttxt">Grotto est un petit salon de lecture imaginé pour le concours Design Parade Toulon organisé par la Villa Noailles.</p>
           <p class="texttxt">Un endroit à part, où lire, écrire réfléchir à l'abri du tumulte du monde extérieur. Une bibliothèque faite de niches creusées à même le mur fait écho à une architecture méditerranéenne séculaire. </p>
           <p class="texttxt">Projet récompensé par le Grand Prix Van Cleef & Arpels, Design Parade Toulon 2018.</p>

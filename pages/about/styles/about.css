@@ -2,8 +2,7 @@ main
 {
   display: flex;
   width: 70%;
-  margin-left: 3%;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
 }
 
@@ -15,12 +14,30 @@ main
 .image 
 {
   width: 52%;
+  margin-left: 11.2%;
 }
 
 .description
 {
-  margin-top: 3%;
-  font-family: 'AvenirLTPro-Light';
-  font-size: 13px;
+  font-family: 'Magneta-Thin';
+  font-size: 0.6rem;
   width: 45%;
+  margin-left: 5%;
+}
+
+.description p
+{
+  margin: 0;
+  width: 332px;
+}
+.description p:nth-child(2)
+{
+  width: 312px;
+}
+.credits
+{
+  margin-left: 5.7%;
+  font-family: 'Magneta-Thin';
+  font-size: 0.5rem;
+  font-style: italic;
 }

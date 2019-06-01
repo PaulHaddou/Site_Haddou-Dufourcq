@@ -29,6 +29,7 @@
           </p>
         </div>
       </main>
+      <p class="credits">Crédits : Valentin Le Cron</p>
       <script type="text/javascript" src="../../scripts/hamburger.js"></script>
   </body>
 </html>

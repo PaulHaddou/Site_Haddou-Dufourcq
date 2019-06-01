@@ -1,6 +1,6 @@
 /**
  * @license
- * MyFonts Webfont Build ID 3610546, 2018-07-16T13:49:41-0400
+ * MyFonts Webfont Build ID 3766188, 2019-05-26T11:14:25-0400
  * 
  * The fonts listed in this notice are subject to the End User License
  * Agreement(s) entered into by the website owner. All other parties are 
@@ -8,86 +8,21 @@
  * 
  * You may obtain a valid license at the URLs below.
  * 
- * Webfont: AvenirLTPro-Light by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-35-light-115678/
- * 
- * Webfont: AvenirLTPro-LightOblique by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-35-light-oblique-115678/
- * 
- * Webfont: AvenirLTPro-Book by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-45-book-115678/
- * 
- * Webfont: AvenirLTPro-BookOblique by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-45-book-oblique-115678/
- * 
- * Webfont: AvenirLTPro-Roman by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-55-roman-115678/
- * 
- * Webfont: AvenirLTPro-Oblique by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-55-oblique-115678/
- * 
- * Webfont: AvenirLTPro-Medium by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-65-medium-115678/
- * 
- * Webfont: AvenirLTPro-MediumOblique by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-65-medium-oblique-115678/
- * 
- * Webfont: AvenirLTPro-Heavy by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-85-heavy-115678/
- * 
- * Webfont: AvenirLTPro-HeavyOblique by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-85-heavy-oblique-115678/
- * 
- * Webfont: AvenirLTPro-Black by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-95-black-115678/
- * 
- * Webfont: AvenirLTPro-BlackOblique by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-95-black-oblique-115678/
+ * Webfont: Magneta-Thin by Positype
+ * URL: https://www.myfonts.com/fonts/positype/magneta/thin/
+ * Copyright: Copyright (c) 2009 by Neil Summerour. All rights reserved.
+ * Licensed pageviews: 10,000
  * 
  * 
- * License: https://www.myfonts.com/viewlicense?type=web&buildid=3610546
- * Licensed pageviews: 15
- * Webfonts copyright: Copyright &#x00A9; 2014 Monotype GmbH. All rights reserved.
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3766188
  * 
- * © 2018 MyFonts Inc
+ * © 2019 MyFonts Inc
 */
 
 
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3977ac");
 
-
   
-@font-face {font-family: 'AvenirLTPro-Light';src: url('webfonts/3717B2_0_0.eot');src: url('webfonts/3717B2_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3717B2_0_0.woff2') format('woff2'),url('webfonts/3717B2_0_0.woff') format('woff'),url('webfonts/3717B2_0_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'AvenirLTPro-LightOblique';src: url('webfonts/3717B2_1_0.eot');src: url('webfonts/3717B2_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3717B2_1_0.woff2') format('woff2'),url('webfonts/3717B2_1_0.woff') format('woff'),url('webfonts/3717B2_1_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'AvenirLTPro-Book';src: url('webfonts/3717B2_2_0.eot');src: url('webfonts/3717B2_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3717B2_2_0.woff2') format('woff2'),url('webfonts/3717B2_2_0.woff') format('woff'),url('webfonts/3717B2_2_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'AvenirLTPro-BookOblique';src: url('webfonts/3717B2_3_0.eot');src: url('webfonts/3717B2_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3717B2_3_0.woff2') format('woff2'),url('webfonts/3717B2_3_0.woff') format('woff'),url('webfonts/3717B2_3_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'AvenirLTPro-Roman';src: url('webfonts/3717B2_4_0.eot');src: url('webfonts/3717B2_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3717B2_4_0.woff2') format('woff2'),url('webfonts/3717B2_4_0.woff') format('woff'),url('webfonts/3717B2_4_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'AvenirLTPro-Oblique';src: url('webfonts/3717B2_5_0.eot');src: url('webfonts/3717B2_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3717B2_5_0.woff2') format('woff2'),url('webfonts/3717B2_5_0.woff') format('woff'),url('webfonts/3717B2_5_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'AvenirLTPro-Medium';src: url('webfonts/3717B2_6_0.eot');src: url('webfonts/3717B2_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3717B2_6_0.woff2') format('woff2'),url('webfonts/3717B2_6_0.woff') format('woff'),url('webfonts/3717B2_6_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'AvenirLTPro-MediumOblique';src: url('webfonts/3717B2_7_0.eot');src: url('webfonts/3717B2_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3717B2_7_0.woff2') format('woff2'),url('webfonts/3717B2_7_0.woff') format('woff'),url('webfonts/3717B2_7_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'AvenirLTPro-Heavy';src: url('webfonts/3717B2_8_0.eot');src: url('webfonts/3717B2_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3717B2_8_0.woff2') format('woff2'),url('webfonts/3717B2_8_0.woff') format('woff'),url('webfonts/3717B2_8_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'AvenirLTPro-HeavyOblique';src: url('webfonts/3717B2_9_0.eot');src: url('webfonts/3717B2_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3717B2_9_0.woff2') format('woff2'),url('webfonts/3717B2_9_0.woff') format('woff'),url('webfonts/3717B2_9_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'AvenirLTPro-Black';src: url('webfonts/3717B2_A_0.eot');src: url('webfonts/3717B2_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3717B2_A_0.woff2') format('woff2'),url('webfonts/3717B2_A_0.woff') format('woff'),url('webfonts/3717B2_A_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'AvenirLTPro-BlackOblique';src: url('webfonts/3717B2_B_0.eot');src: url('webfonts/3717B2_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3717B2_B_0.woff2') format('woff2'),url('webfonts/3717B2_B_0.woff') format('woff'),url('webfonts/3717B2_B_0.ttf') format('truetype');}
+@font-face {font-family: 'Magneta-Thin';src: url('webfonts/3977AC_0_0.eot');src: url('webfonts/3977AC_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3977AC_0_0.woff2') format('woff2'),url('webfonts/3977AC_0_0.woff') format('woff'),url('webfonts/3977AC_0_0.ttf') format('truetype');}
  

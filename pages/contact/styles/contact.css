@@ -8,22 +8,22 @@
   display: flex;
   width: 73%;
   flex-direction: column;
-  margin-left: 7%;
+  margin-left: 5%;
 }
 
 .background{
-  width: 86%;
+  width: 64%;
   z-index: -10;
 }
 .text{
   width: 59%;
-  font-size: 13px;
+  font-size: 0.6rem;
   display: flex;
   justify-content: space-between;
 }
 .text p{
-  font-weight: bold;
-  font-family: 'AvenirLTPro-Heavy';
+  font-style: italic;
+  font-family: 'Magneta-Thin';
   margin-bottom: 0%;
 }
 .text h1{
@@ -32,7 +32,7 @@
 .text a{
   text-decoration: none;
   color: black;
-  font-family: 'AvenirLTPro-Roman';
+  font-family: 'Magneta-Thin';
 }
 .text a:hover{
   text-decoration: underline;

@@ -1,9 +1,8 @@
 /* Slideshow container */
 .slideshow-container {
-  width: 86%;
+  width: 72%;
   position: relative;
   margin: auto;
-  margin-top: 4%;
 }
 
 /* Hide the images by default */
@@ -99,19 +98,32 @@
   margin-bottom: 8%;
 }
 .description h2{
-  font-size: 100%;
-  margin-bottom: 7px;
+  font-size: 0.8rem;
+  margin: 0;
+  color: black;
 }
-
-.line{
-  height: 2px;
-  width: 60px;
-  background: black;
-  content: "";
-}
-
 
 .text{
-  font-family:'AvenirLTPro-Oblique';
-  font-size: 80%;
+  font-family:'Magneta-Thin';
+  font-size: 0.6rem;
+}
+h2
+{
+  color: black;
+}
+
+.text p:nth-child(2)
+{
+  margin-top: 12px;
+  margin: 0;
+}
+.text p:nth-child(3)
+{
+  margin-bottom: 12px;
+  margin: 0;
+}
+
+.credits
+{
+  font-style: italic;
 }
