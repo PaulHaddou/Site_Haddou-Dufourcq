@@ -1,3 +1,8 @@
 User-agent: *
 Disallow: /display/index.php
-Disallow: /ici_ailleurs/index.php
+Disallow: pages/ici_ailleurs/index.php
+Disallow: /contact/index.php
+Disallow: /about/index.php
+Disallow: /about/about.html
+Disallow: /contact/contact.html
+Disallow: pages/se_poser/se_poser.html
