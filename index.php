@@ -23,7 +23,27 @@
              <div class="grotto_img">
                <div class="grotto_text">
                 <h2>grotto</h2>
-                <h2>design parade</h2>
+                <h2>design parade 2018</h2>
+               </div>
+             </div>
+          </a>
+        </div>
+        <div class="fenetre">
+          <a href="pages/fenetre_sur_cours/">
+             <div class="fenetre_img">
+               <div class="fenetre_text">
+                <h2>fenêtres sur cours</h2>
+                <h2>design parade 2019</h2>
+               </div>
+             </div>
+          </a>
+        </div>
+        <div class="elise_djo_bourgeois">
+          <a href="pages/elise-djo_bourgeois/">
+             <div class="elise_djo_bourgeois_img">
+               <div class="elise_djo_bourgeois_text">
+                <h2>élise djo-bourgeois</h2>
+                <h2>villa noailles</h2>
                </div>
              </div>
           </a>
@@ -34,16 +54,6 @@
                <div class="american_vintage_text">
                 <h2>american vintage</h2>
                 <h2>coalescence</h2>
-               </div>
-             </div>
-          </a>
-        </div>
-        <div class="elise_djo_bourgeois">
-          <a href="pages/elise_djo_bourgeois/">
-             <div class="elise_djo_bourgeois_img">
-               <div class="elise_djo_bourgeois_text">
-                <h2>élise djo-bourgeois</h2>
-                <h2>villa noailles</h2>
                </div>
              </div>
           </a>

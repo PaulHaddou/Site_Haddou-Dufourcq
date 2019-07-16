@@ -17,6 +17,8 @@
     <div class="container">
       <main>
         <div class="article">
+          <p><a href="https://www.admagazine.fr/design/actualite-design/diaporama/design-parade-2019-nos-coups-de-coeur/58329"> AD France - <i>juillet 2019</i> </a></p>
+          <p><a href="https://www.sightunseen.com/2019/07/the-2019-design-parade-festival-is-a-total-visual-overload-in-the-best-possible-way/ "> SIGHT UNSEEN - <i>juillet 2019</i> </a></p>
           <p><a href="https://www.elledecor.com/es/decoracion/a26760842/instagram-estanteria-obra-gotele/"> ELLE DECOR Spain - <i>mars 2019</i> </a></p>
           <p><a href="../../pdf/marie-claire-Octobre-2018-kim-haddou-florent-dufourcq.pdf"> MARIE-CLAIRE MAISON - <i>octobre 2018</i> </a></p>
           <p><a href="https://www.architecturaldigest.com/story/ultimate-built-in-bookshelf-diy"> ARCHITECTURAL DIGEST - <i>octobre 2018</i> </a></p>
