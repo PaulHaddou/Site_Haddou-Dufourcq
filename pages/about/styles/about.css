@@ -1,10 +1,8 @@
 main
 {
   display: flex;
-  width: 70%;
-  align-items: flex-start;
-  justify-content: space-around;
-  margin-left: 87px;
+  align-items: center;
+  flex-direction: column;
 }
 
 .topnav a:nth-child(2)
@@ -14,29 +12,25 @@ main
 }
 .image 
 {
-  width: 50%;
+  width: 52%;
 }
 
 .description
 {
   font-family: 'Magneta-Thin';
   font-size: 0.6rem;
-  width: 45%;
-  margin-left: 5%;
+  width: 52%;
+  margin: 5vh 0;
 }
 
 .description p
 {
   margin: 0;
-  width: 332px;
+  margin: 2vh 0;
 }
-.description p:nth-child(2)
-{
-  width: 312px;
-}
+
 .credits
 {
-  margin-left: 87px;
   font-family: 'Magneta-Thin';
   font-size: 0.5rem;
   font-style: italic;

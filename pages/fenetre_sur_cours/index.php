@@ -1,5 +1,5 @@
 <?php
-    $title = 'fenêtre sur cours';
+    $title = 'fenêtres sur cours';
     $metaname = '';
     $css = '../../styles/projectsPages.css';
     $cssHeader = '../../styles/header.css';
@@ -50,7 +50,7 @@
         <span class="dot" onclick="currentSlide(7)"></span>
       </div>
       <div class="description">
-        <h2>fenêtre sur cours</h2>
+        <h2>fenêtres sur cours</h2>
         <div class="text">
           <p class="texttitle">Design Parade Toulon, France, 2019</p>
           <p class="texttxt">Avec le soutien précieux de: Villa Noailles, Pierre Frey, Codimat, Gubi, Galerie</p>

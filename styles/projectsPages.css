@@ -112,16 +112,12 @@ h2
   color: black;
 }
 
-.text p:nth-child(2)
+.texttxt
 {
   margin-top: 12px;
   margin: 0;
 }
-.text p:nth-child(3)
-{
-  margin-bottom: 12px;
-  margin: 0;
-}
+
 
 .credits
 {

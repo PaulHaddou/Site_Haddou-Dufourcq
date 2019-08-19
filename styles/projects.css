@@ -29,7 +29,6 @@
   font-style: italic;
 }
 
-
 .grotto
 {
   width: 48%;
@@ -38,9 +37,9 @@
 
 .grotto_img{
   width: 100%;
-  height: 404px;
+  height: 750px;
   background-image: url(../images/miniatures/grotto-1.JPG);
-  background-size: 100% 200%;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -48,7 +47,7 @@
 .grotto_text
 {
   width: 100%;
-  height: 100%;
+  height: 750px;
   background-color: rgba(0, 0, 0, 0.4);
   opacity: 0;
   transition: ease-in-out 0.8s;
@@ -59,10 +58,10 @@
 }
 
 
-
 .fenetre
 {
   width: 48%;
+  margin-top: -360px;
   margin-bottom: 54px;
 }
 
@@ -92,7 +91,6 @@
 .american_vintage
 {
   width: 48%;
-  margin-top: -14px;
   margin-bottom: 54px;
 }
 
@@ -123,7 +121,7 @@
 .elise_djo_bourgeois
 {
   width: 48%;
-  margin-top: -360px;
+  margin-top: -18px;
   margin-bottom: 54px;
 }
 
@@ -152,15 +150,15 @@
 .hyeres_34
 {
   width: 48%;
-  margin-top: -18px;
+  margin-top: -360px;
   margin-bottom: 54px;
 }
 
 .hyeres_34_img{
   width: 100%;
-  height: 404px;
+  height: 750px;
   background-image: url(../images/miniatures/Villa_Jury-Ministere_de_la_Culture_1.jpg);
-  background-size: 100% 200%;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -168,7 +166,7 @@
 .hyeres_34_text
 {
   width: 100%;
-  height: 100%;
+  height: 750px;
   background-color: rgba(0, 0, 0, 0.4);
   opacity: 0;
   transition: ease-in-out 0.8s;
@@ -177,7 +175,6 @@
   justify-content: center;
   flex-direction: column;
 }
-
 
 
 .ici_et_ailleurs

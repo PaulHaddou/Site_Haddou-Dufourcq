@@ -28,12 +28,12 @@
              </div>
           </a>
         </div>
-        <div class="fenetre">
-          <a href="pages/fenetre_sur_cours/">
-             <div class="fenetre_img">
-               <div class="fenetre_text">
-                <h2>fenêtres sur cours</h2>
-                <h2>design parade 2019</h2>
+        <div class="american_vintage">
+          <a href="pages/american_vintage/">
+             <div class="american_vintage_img">
+               <div class="american_vintage_text">
+                <h2>american vintage</h2>
+                <h2>coalescence</h2>
                </div>
              </div>
           </a>
@@ -48,22 +48,12 @@
              </div>
           </a>
         </div>
-        <div class="american_vintage">
-          <a href="pages/american_vintage/">
-             <div class="american_vintage_img">
-               <div class="american_vintage_text">
-                <h2>american vintage</h2>
-                <h2>coalescence</h2>
-               </div>
-             </div>
-          </a>
-        </div>
-        <div class="hyeres_34">
-          <a href="pages/hyeres_34/">
-             <div class="hyeres_34_img">
-               <div class="hyeres_34_text">
-                <h2>hyères 34</h2>
-                <h2>palais royal</h2>
+        <div class="fenetre">
+          <a href="pages/fenetre_sur_cours/">
+             <div class="fenetre_img">
+               <div class="fenetre_text">
+                <h2>fenêtres sur cours</h2>
+                <h2>design parade 2019</h2>
                </div>
              </div>
           </a>
@@ -75,6 +65,16 @@
                 <h3>ici & ailleurs</h3>
               </div>
             </div>
+          </a>
+        </div>
+        <div class="hyeres_34">
+          <a href="pages/hyeres_34/">
+             <div class="hyeres_34_img">
+               <div class="hyeres_34_text">
+                <h2>hyères 34</h2>
+                <h2>palais royal</h2>
+               </div>
+             </div>
           </a>
         </div>
         <div class ="songe_ete">

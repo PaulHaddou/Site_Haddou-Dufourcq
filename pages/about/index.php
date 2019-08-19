@@ -28,8 +28,8 @@
             Selectionnés en 2018 par la Villa Noailles pour le concours Design Parade Toulon, ils reçoivent le Grand Prix du Jury Van Cleef and Arpels pour "Grotto", une petite pièce d'inspiration méditérranéenne exposée tout l'été dans l'ancien évêché de la ville.
           </p>
         </div>
-      </main>
       <p class="credits">Crédits : Valentin Le Cron</p>
+      </main>
       <script type="text/javascript" src="../../scripts/hamburger.js"></script>
   </body>
 </html>
