@@ -14,6 +14,7 @@
     $hrefContact = '../contact/';
     include '../../header.php';
   ?>
+  <main>
     <div class="container">
       <div class="slideshow-container">
         <div class="mySlides fade">
@@ -49,7 +50,8 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="../../scripts/hamburger.js"></script>
-    <script type="text/javascript" src="../../scripts/slider.js"></script>
+  </main>
+  <script type="text/javascript" src="../../scripts/burger.js"></script>
+  <script type="text/javascript" src="../../scripts/slider.js"></script>
   </body>
 </html>

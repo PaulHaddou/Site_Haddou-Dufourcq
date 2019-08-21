@@ -9,7 +9,7 @@
   <body>
   <!-------------- HEADER---------------->
   <?php
-    $hrefProjects = 'www.haddou-dufourcq.com';
+    $hrefProjects = 'https://www.haddou-dufourcq.com';
     $hrefAbout = 'pages/about/';
     $hrefPublications = 'pages/publications/';
     $hrefContact = 'pages/contact/';
@@ -124,7 +124,7 @@
         </div>
       </div>
     </main>
-    <script type="text/javascript" src="scripts/hamburger.js"></script>
+    <script type="text/javascript" src="scripts/burger.js"></script>
   </body>
 </html>
 		

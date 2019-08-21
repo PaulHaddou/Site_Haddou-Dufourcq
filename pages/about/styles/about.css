@@ -1,4 +1,4 @@
-main
+.container
 {
   display: flex;
   align-items: center;
@@ -12,14 +12,14 @@ main
 }
 .image 
 {
-  width: 52%;
+  width: 80%;
 }
 
 .description
 {
   font-family: 'Magneta-Thin';
   font-size: 0.6rem;
-  width: 52%;
+  width: 80%;
   margin: 5vh 0;
 }
 

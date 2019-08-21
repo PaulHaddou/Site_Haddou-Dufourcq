@@ -112,10 +112,13 @@ h2
   color: black;
 }
 
+.texttitle
+{
+  margin: 8vw 0;
+}
 .texttxt
 {
-  margin-top: 12px;
-  margin: 0;
+  margin: 2vw 0;
 }
 
 

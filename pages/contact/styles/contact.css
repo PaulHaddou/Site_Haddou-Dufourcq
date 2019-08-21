@@ -4,16 +4,20 @@
   text-decoration:underline;
 }
 
+main 
+{
+  display: inline-block;
+}
+
 .container {
   display: flex;
-  width: 73%;
+  margin-top: 106px;
   flex-direction: column;
   margin-left: 5%;
 }
 
 .background{
   width: 64%;
-  z-index: -10;
 }
 .text{
   width: 59%;

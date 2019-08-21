@@ -12,11 +12,27 @@
       <a href="<?= $hrefAbout ?>">à propos</a>
       <a href="<?= $hrefPublications ?>">publications</a>
       <a href="<?= $hrefContact ?>">contact</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
     </div>
   </div>
-</header>		
-<div class="headerBackground">
+</header>
+
+
+<div class="navbarMobile">
+    <div class="navbarMobile--logo">
+        <div class="logo--before"></div>
+        <a href="https://www.haddou-dufourcq.com">Studio Haddou Dufourcq</a>
+        <div class="logo--burger">
+            <div class="burger--spans">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="navbarMobile--links">
+        <a href="<?= $hrefProjects ?>">projets</a>
+        <a href="<?= $hrefAbout ?>">à propos</a>
+        <a href="<?= $hrefPublications ?>">publications</a>
+        <a href="<?= $hrefContact ?>">contact</a>
+    </div>
 </div>

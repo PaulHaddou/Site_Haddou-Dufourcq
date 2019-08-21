@@ -14,8 +14,8 @@
     $hrefContact = '../contact/';
     include '../../header.php';
   ?>
-    <div class="container">
-      <main class="main_form">
+    <main>
+      <div class="container">
         <img src="../../images/contact/kim-haddou-florent-dufourcq-clouds.jpg" alt="fond contact" class="background">
         <div class="text">
           <div class="contact">
@@ -27,8 +27,8 @@
             <a href="https://www.instagram.com/studio_haddou_dufourcq/" class="insta">instagram</a>
           </div>
         </div>
-      </main>
-    </div>
-    <script type="text/javascript" src="../../scripts/hamburger.js"></script>
+      </div>
+    </main>
+    <script type="text/javascript" src="../../scripts/burger.js"></script>
   </body>
 </html>

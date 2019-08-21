@@ -14,8 +14,8 @@
     $hrefContact = '../contact/';
     include '../../header.php';
   ?>
+  <main>
     <div class="container">
-      <main>
         <div class="article">
           <p><a href="https://www.admagazine.fr/design/actualite-design/diaporama/design-parade-2019-nos-coups-de-coeur/58329"> AD France - <i>juillet 2019</i> </a></p>
           <p><a href="https://www.sightunseen.com/2019/07/the-2019-design-parade-festival-is-a-total-visual-overload-in-the-best-possible-way/ "> SIGHT UNSEEN - <i>juillet 2019</i> </a></p>
@@ -33,9 +33,9 @@
           <p><a href="https://www.telerama.fr/scenes/design-parade-toulon-eloge-de-lhedonisme,n5713606.php"> TELERAMA- <i>juillet 2018</i> </a></p>
           <p><a href="https://www.sightunseen.com/2018/07/design-parade-villa-noailles-philippe-malouin-pierre-yovanovitch/"> SIGHT UNSEEN - <i>juillet 2018</i> </a></p>
         </div>
-      </main>
-    </div>
-    <script type="text/javascript" src="../../scripts/hamburger.js"></script>
+      </div>
+    </main>
+    <script type="text/javascript" src="../../scripts/burger.js"></script>
   </body>
 </html>
 		

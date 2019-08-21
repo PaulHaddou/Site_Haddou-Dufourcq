@@ -3,6 +3,7 @@
     $metaname = '';
     $css = 'styles/about.css';
     $cssHeader = '../../styles/header.css';
+    $cssNavbarMobile = '../../styles/NavbarMobile.css';
     $fonts = '../../fonts/MyFontsWebfontsKit.css';
     include '../../head.php';
 ?>
@@ -14,8 +15,8 @@
     $hrefContact = '../contact/';
     include '../../header.php';
   ?>
-    <div class="container">
-      <main>
+    <main>
+      <div class="container">
         <img class="image" src="../../images/a_propos/kim-haddou-florent-dufourcq.jpg" alt="image de Kim Haddou et Florent Dufourcq">
         <div class="description">
           <p>
@@ -28,8 +29,9 @@
             Selectionnés en 2018 par la Villa Noailles pour le concours Design Parade Toulon, ils reçoivent le Grand Prix du Jury Van Cleef and Arpels pour "Grotto", une petite pièce d'inspiration méditérranéenne exposée tout l'été dans l'ancien évêché de la ville.
           </p>
         </div>
-      <p class="credits">Crédits : Valentin Le Cron</p>
-      </main>
-      <script type="text/javascript" src="../../scripts/hamburger.js"></script>
+        <p class="credits">Crédits : Valentin Le Cron</p>
+      </div>
+    </main>
+      <script type="text/javascript" src="../../scripts/burger.js"></script>
   </body>
 </html>
