@@ -1,8 +1,15 @@
+main
+{
+  display: flex;
+  justify-content: center;
+}
+
 /* Slideshow container */
 .slideshow-container {
-  width: 72%;
+  width: 52vw;
   position: relative;
-  margin: auto;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 
 /* Hide the images by default */
@@ -93,9 +100,9 @@
 
 
 .description{
-  margin-left: 7%;
-  margin-top: 5%;
-  margin-bottom: 8%;
+  margin: 0 auto;
+  margin-bottom: 20vh;
+  width : 70%;
 }
 .description h2{
   font-size: 0.8rem;
@@ -114,15 +121,24 @@ h2
 
 .texttitle
 {
-  margin: 8vw 0;
+  margin: 25px 0;
 }
 .texttxt
 {
-  margin: 2vw 0;
+  margin: 10px 0;
 }
 
 
 .credits
 {
   font-style: italic;
+}
+
+@media screen and (max-width: 910px) 
+{
+  .slideshow-container 
+  {
+    margin-top: 0;
+  }
+  
 }

@@ -73,7 +73,7 @@ header
 }
 
 
- /*******************
+/*******************
 
        main
 
@@ -238,7 +238,7 @@ body .navbarMobile .navbarMobile--logo .logo--burger .burger--spans
 {
   cursor: pointer;
   width: 25px;
-  height: 25px;
+  height: 13.5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,7 +247,7 @@ body .navbarMobile .navbarMobile--logo .logo--burger .burger--spans
 body .navbarMobile .navbarMobile--logo .logo--burger .burger--spans span
 {
   width: 20px;
-  height: 2px;
+  height: 1px;
   margin: 2px 0;
   background: #000;
   border-radius: 10px;
@@ -305,4 +305,16 @@ body .navbarMobile .navbarMobile--links a:hover
     width: 90%;
     margin: 0 auto;
   }
+  .description
+  {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 80%;
+  }
+
+  .credits
+  {
+    text-align: center;
+  }
 }
+	

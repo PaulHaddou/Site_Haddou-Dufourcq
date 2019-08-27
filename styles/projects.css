@@ -1,6 +1,6 @@
 main 
 {
-  display: inline-block;
+  display: flex;
 }
 .topnav a:nth-child(1)
 {
