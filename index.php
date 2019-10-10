@@ -18,113 +18,80 @@
   <!---------- CONTAINER --------->
     <main>
       <div class="container">
-        <div class="grotto">
-          <a href="pages/grotto/">
-             <div class="grotto_img">
-               <div class="grotto_text">
-                <h2>grotto</h2>
-                <h2>design parade 2018</h2>
-               </div>
-             </div>
-          </a>
-        </div>
-        <div class="american_vintage">
-          <a href="pages/american_vintage/">
-             <div class="american_vintage_img">
-               <div class="american_vintage_text">
-                <h2>american vintage</h2>
-                <h2>coalescence</h2>
-               </div>
-             </div>
-          </a>
-        </div>
-        <div class="elise_djo_bourgeois">
-          <a href="pages/elise-djo_bourgeois/">
-             <div class="elise_djo_bourgeois_img">
-               <div class="elise_djo_bourgeois_text">
-                <h2>élise djo-bourgeois</h2>
-                <h2>villa noailles</h2>
-               </div>
-             </div>
-          </a>
-        </div>
-        <div class="fenetre">
-          <a href="pages/fenetre_sur_cours/">
-             <div class="fenetre_img">
-               <div class="fenetre_text">
-                <h2>fenêtres sur cours</h2>
-                <h2>design parade 2019</h2>
-               </div>
-             </div>
-          </a>
-        </div>
-        <div class="ici_et_ailleurs">
-          <a href="pages/ici_ailleurs/">
-            <div class="ici_et_ailleurs_img">
-              <div class="ici_et_ailleurs_text">
-                <h3>ici & ailleurs</h3>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="hyeres_34">
-          <a href="pages/hyeres_34/">
-             <div class="hyeres_34_img">
-               <div class="hyeres_34_text">
-                <h2>hyères 34</h2>
-                <h2>palais royal</h2>
-               </div>
-             </div>
-          </a>
-        </div>
-        <div class ="songe_ete">
-          <a href="pages/songe_ete/">
-            <div class="songe_ete_img">
-              <div class="songe_ete_text">
-                <h3>songe d'un jour d'été</h3>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="villa">
-          <a href="pages/villa_1920/">
-             <div class="villa_img">
-               <div class="villa_text">
-                <h2>villa 1920</h2>
-               </div>
-             </div>
-          </a>
-        </div>
-        <div class="display">
-          <a href="pages/display/">
-            <div class="display_img">
-              <div class="display_text">
-                <h3>display</h3>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class ="louvre">
-          <a href="pages/louvre/">
-            <div class="louvre_img">
-              <div class="louvre_text">
-                <h3>louvre</h3>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="notre_dame">
-          <a href="pages/notre_dame/">
-             <div class="notre_dame_img">
-               <div class="notre_dame_text">
-                <h2>notre-dame</h2>
-               </div>
-             </div>
-          </a>
-        </div>
+          <div class="grotto">
+              <img src="images/miniatures/grotto-1.JPG" alt="">
+              <a class="textGrotto" href="pages/grotto/">
+                  <p>grotto</p>
+                  <p>design parade 2018</p>
+              </a>
+          </div>
+          <div class="americanVintage">
+              <img src="images/miniatures/Sarah_Mei_Herman-Studio_Haddou_Dufourcq-American_Vintage-Luc_Bertrand1.jpg" alt="">
+              <a class="textAmericanVintage small" href="pages/american_vintage/">
+                  <p>american vintage</p>
+                  <p>coalescence</p>
+              </a>
+          </div>
+          <div class="eliseDjoBourjoie">
+              <img src="images/miniatures/kim-haddou-florent-dufourcq-elise-djo-bourgeois-emile-kirsch-1.jpg" alt="">
+              <a class="texteliseDjoBourjoie" href="pages/elise-djo_bourgeois/">
+                  <p>élise djo-bourgeois</p>
+                  <p>villa noailles</p>
+              </a>
+          </div>
+          <div class="fenetre">
+              <img src="images/miniatures/fenetre-sur-cours.jpg" alt="">
+              <a class="textfenetre" href="pages/fenetre_sur_cours/">
+                  <p>fenêtres sur cours</p>
+                  <p>design parade 2019</p>
+              </a>
+          </div>
+          <div class="iciEtAilleur">
+              <img src="images/miniatures/ici-et-ailleurs.jpg" alt="">
+              <a class="textIciEtAilleur small" href="pages/ici_ailleurs/">
+                  <p>ici et ailleurs</p>
+              </a>
+          </div>
+          <div class="hyeres34">
+              <img src="images/miniatures/Villa_Jury-Ministere_de_la_Culture_1.jpg" alt="">
+              <a class="textHyeres34" href="pages/hyeres_34/">
+                  <p>hyères 34</p>
+                  <p>palais royal</p>
+              </a>
+          </div>
+          <div class="songeEte">
+              <img src="images/miniatures/songe-ete.jpg" alt="">
+              <a class="textSongeEte small" href="pages/songe_ete/">
+                  <p>songe d'un jour d'été</p>
+              </a>
+          </div>
+          <div class="villa">
+              <img src="images/miniatures/villa.jpg" alt="">
+              <a class="textVilla small" href="pages/villa_1920/">
+                  <p>villa 1920</p>
+              </a>
+          </div>
+          <div class="display">
+              <img src="images/miniatures/display.jpg" alt="">
+              <a class="textDisplay small" href="pages/display/">
+                  <p>display</p>
+              </a>
+          </div>
+          <div class="louvre">
+              <img src="images/miniatures/louvre.jpg" alt="">
+              <a class="textLouvre small" href="pages/louvre/">
+                  <p>louvre</p>
+              </a>
+          </div>
+          <div class="notreDame">
+              <img src="images/miniatures/notre-dame.jpg" alt="">
+              <a class="textNotreDame small" href="pages/notre_dame/">
+                  <p>notre-dame</p>
+              </a>
+          </div>
       </div>
     </main>
-    <script type="text/javascript" src="scripts/burger.js"></script>
+  <script type="text/javascript" src="scripts/burger.js"></script>
   </body>
 </html>
 		

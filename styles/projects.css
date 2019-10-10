@@ -1,394 +1,146 @@
-main 
-{
-  display: flex;
-}
 .topnav a:nth-child(1)
 {
   font-style: italic;
   text-decoration:underline;
 }
 
-.container{
-  width: 90%;
-  max-width: 1134px;
-  margin: 0 auto;
+body 
+{
+  background: #fff;
+  font-family: 'Magneta-Thin';
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+body main 
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
   margin-top: 110px;
+}
+body main .container
+{
+  width: 90%;
+  max-width: 1260px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 10vh;
 }
 
-.container > div
+body main .container > div
 {
-  width: 550px;
-  margin-bottom: 54px;
-}
-
-.container div a > div :hover
-{
-  opacity: 1;
-}
-.container div a > div > div h2:nth-child(2)
-{
-  font-size: 0.7rem;
-  font-style: italic;
-}
-
-.grotto
-{
+  position: relative;
   width: 48%;
-  margin-bottom: 54px;
+  min-width: 402px;
+  height: fit-content;
 }
-
-.grotto_img{
-  width: 100%;
-  height: 750px;
-  background-image: url(../images/miniatures/grotto-1.JPG);
-  background-size: 140% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.grotto_text
+.eliseDjoBourjoie
 {
-  width: 100%;
-  height: 750px;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: ease-in-out 0.8s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  margin-top: 2%;
 }
-
-
 .fenetre
 {
-  width: 48%;
-  margin-top: -360px;
-  margin-bottom: 54px;
+  margin-top: -38%;
 }
-
-.fenetre_img{
-  width: 100%;
-  height: 750px;
-  background-image: url(../images/miniatures/fenetre-sur-cours.jpg);
-  background-size: 140% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.fenetre_text
+.iciEtAilleur
 {
-  width: 100%;
-  height: 750px;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: ease-in-out 0.8s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  margin-top: 2%;
 }
-
-
-.american_vintage
+.hyeres34
 {
-  width: 48%;
-  margin-bottom: 54px;
+  margin-top: -25.5%;
 }
-
-.american_vintage_img{
-  width: 100%;
-  height: 404px;
-  background-image: url(../images/miniatures/Sarah_Mei_Herman-Studio_Haddou_Dufourcq-American_Vintage-Luc_Bertrand1.jpg);
-  background-size: 140% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.american_vintage_text
+.songeEte
 {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: ease-in-out 0.8s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  margin-top: -6.5%;
 }
-
-
-
-.elise_djo_bourgeois
-{
-  width: 48%;
-  margin-top: -18px;
-  margin-bottom: 54px;
-}
-
-.elise_djo_bourgeois_img{
-  width: 100%;
-  height: 750px;
-  background-image: url(../images/miniatures/kim-haddou-florent-dufourcq-elise-djo-bourgeois-emile-kirsch-1.jpg);
-  background-size: 140% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.elise_djo_bourgeois_text
-{
-  width: 100%;
-  height: 750px;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: ease-in-out 0.8s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.hyeres_34
-{
-  width: 48%;
-  margin-top: -360px;
-  margin-bottom: 54px;
-}
-
-.hyeres_34_img{
-  width: 100%;
-  height: 750px;
-  background-image: url(../images/miniatures/Villa_Jury-Ministere_de_la_Culture_1.jpg);
-  background-size: 140% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.hyeres_34_text
-{
-  width: 100%;
-  height: 750px;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: ease-in-out 0.8s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-
-.ici_et_ailleurs
-{
-  width: 48%;
-  margin-top: -18px;
-  margin-bottom: 54px;
-}
-
-.ici_et_ailleurs_img{
-  width: 100%;
-  height: 404px;
-  background-image: url(../images/miniatures/ici-et-ailleurs.jpg);
-  background-size: 140% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.ici_et_ailleurs_text
-{
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: ease-in-out 0.8s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
-.songe_ete
-{
-  width: 48%;
-  margin-top: -18px;
-  margin-bottom: 54px;
-}
-
-.songe_ete_text
-{
-  width: 100%;
-  height: 404px;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: ease-in-out 0.8s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.songe_ete_img{
-  box-sizing: border-box;
-  width: 100%;
-  height: 404px;
-  background-image: url(../images/miniatures/songe-ete.jpg);
-  background-size: 140% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.songe_ete_text h3{
-  text-align: center;
-}
-
-
 .villa
 {
-  width: 48%;
-  margin-top: -18px;
-  margin-bottom: 54px;
+  margin-top: 2%;
 }
-
-.villa_img
-{
-  box-sizing: border-box;
-  width: 100%;
-  height: 404px;
-  background-image: url(../images/miniatures/villa.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.villa_text{
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: ease-in-out 0.8s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .display
 {
-  width: 48%;
-  margin-top: -18px;
-  margin-bottom: 54px;
+  margin-top: -11%;
 }
-
-.display_img{
-  box-sizing: border-box;
-  width: 100%;
-  height: 404px;
-  background-image: url(../images/miniatures/display.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .louvre
 {
-  width: 48%;
-  margin-top: -18px;
-  margin-bottom: 54px;
+  margin-top: 2%;
 }
-
-.louvre_img{
-  box-sizing: border-box;
-  width: 100%;
-  height: 404px;
-  background-image: url(../images/miniatures/louvre.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.display_text, .se_poser_text, .louvre_text{
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: ease-in-out 0.8s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.notre_dame
+.notreDame
 {
-  width: 48%;
-  margin-top: -18px;
-  margin-bottom: 54px;
+  margin-top: -12%;
 }
 
-.notre_dame_img{
-  box-sizing: border-box;
+body main .container > div img 
+{
   width: 100%;
-  height: 540px;
-  background-image: url(../images/miniatures/notre-dame.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
-
-.notre_dame_text{
+body main .container > div a
+{
   width: 100%;
-  height: 540px;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: ease-in-out 0.8s;
+  height: 99%;
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  margin-bottom: 10%;
+  align-items: center;
+  color: #fff;
+  background-color: #34343466;
+  opacity: 0;
+  text-decoration: none;
+  transition: opacity .8s ease;
+}
+body main .container > div .small
+{
+  height: 98%;
+}
+body main .container > div a p
+{
+  margin: 4px;
+}
+body main .container > div a p:nth-child(1)
+{
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+body main .container > div a p:nth-child(2)
+{
+  font-size: 0.7rem;
+  font-weight: normal;
+  font-style: italic;
+}
+body main .container > div a:hover
+{
+  opacity: 1;
+  transition: opacity .8s ease;
 }
 
 
 
-
-/***************************************
-                Media Queries
-***************************************/
 @media all and (max-width: 910px)
 {
-  body{
-    width: 100%;
-  }
-  Main {
-    display: inline-block;
-  }
-  .image img{
-    width: 100%;
-  }
-  .description{
-    width: 86%;
-    margin: 7%;
-  }
-  .container
+  body main .container
   {
-    margin-top: 15vh;
-  }
-}
-
-
-
-@media screen and (max-width: 1240px) {
-
-  .container
-  {
-    display: flex;
-    flex: wrap;
     justify-content: center;
   }
-
-  .container > div
+  body main .container > div
   {
-    margin-top: 4vh;
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .container > div img 
+  {
+    width: 80%;
+  }
+  .notreDame
+  {
+    margin-bottom: 10vh;
   }
 }
