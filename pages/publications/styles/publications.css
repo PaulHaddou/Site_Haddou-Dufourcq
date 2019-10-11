@@ -6,61 +6,21 @@
 
 main{
   display: flex;
-  width: 723px;
-  margin-left: 3%;
+  width: 100%;
   align-items: center;
 }
 
-.article{
-  margin-left: 5%;
+.container
+{
+  width: 100%;
+  margin-top: 110px;
+  margin-left: 182px;
 }
 .article a{
   text-decoration: none;
   font-family: 'Magneta-Thin';
   color: black;
   font-size: 13px;
-
-}
-
-
-
-/***************************************
-                Media Queries
-***************************************/
-
-@media all and (max-width: 910px)
-{
-  body{
-    width: 100%;
-  }
-  Main {
-    display: inline-block;
-  }
-  .image img{
-    width: 100%;
-  }
-  .description{
-    width: 86%;
-    margin: 7%;
-  }
-}
-
-@media all and (max-width: 910px)
-{
-  body{
-    width: 100%;
-  }
-  Main {
-    display: inline-block;
-    width: 100%;
-  }
-  .image img{
-    width: 100%;
-  }
-  .description{
-    width: 86%;
-    margin: 7%;
-  }
 }
 
 
