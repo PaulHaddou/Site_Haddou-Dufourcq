@@ -143,4 +143,8 @@ body main .container > div a:hover
   {
     margin-bottom: 10vh;
   }
+  body main .container > div a:hover
+  {
+    opacity: 0;
+  }
 }
