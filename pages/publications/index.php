@@ -17,6 +17,11 @@
   <main>
     <div class="container">
         <div class="article">
+          <p><a href="https://www.domino.com/content/recessed-wall-shelves/"> DOMINO - <i>décembre 2019</i> </a></p>
+          <p><a href="../../pdf/ELLE DECORATION Design Parade Toulon Novembre 2019.pdf"> ELLE DECORATION - <i>novembre 2019</i> </a></p>
+          <p><a href="../../pdf/IDEAT-American_Vintage.pdf"> IDEAT - <i>septembre 2019</i> </a></p>
+          <p><a href="../../pdf/MILK_DECORATION-Design_Parade.pdf"> MILK DECORATION - <i>septembre 2019</i> </a></p>
+          <p><a href="https://www.yellowtrace.com.au/the-design-parade-festival-toulon-hyeres-2019-art-design-installations/"> YELLOWTRACE - <i>août 2019</i> </a></p>
           <p><a href="https://www.admagazine.fr/design/actualite-design/diaporama/design-parade-2019-nos-coups-de-coeur/58329"> AD France - <i>juillet 2019</i> </a></p>
           <p><a href="https://www.sightunseen.com/2019/07/the-2019-design-parade-festival-is-a-total-visual-overload-in-the-best-possible-way/ "> SIGHT UNSEEN - <i>juillet 2019</i> </a></p>
           <p><a href="https://www.elledecor.com/es/decoracion/a26760842/instagram-estanteria-obra-gotele/"> ELLE DECOR Spain - <i>mars 2019</i> </a></p>

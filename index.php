@@ -25,9 +25,9 @@
                   <p>design parade 2018</p>
               </a>
           </div>
-          <div class="americanVintage">
+          <div class="americanVintage small">
               <img src="images/miniatures/Sarah_Mei_Herman-Studio_Haddou_Dufourcq-American_Vintage-Luc_Bertrand1.jpg" alt="">
-              <a class="textAmericanVintage small" href="pages/american_vintage/">
+              <a class="textAmericanVintage" href="pages/american_vintage/">
                   <p>american vintage</p>
                   <p>coalescence</p>
               </a>
@@ -46,9 +46,9 @@
                   <p>design parade 2019</p>
               </a>
           </div>
-          <div class="iciEtAilleur">
+          <div class="iciEtAilleur small">
               <img src="images/miniatures/ici-et-ailleurs.jpg" alt="">
-              <a class="textIciEtAilleur small" href="pages/ici_ailleurs/">
+              <a class="textIciEtAilleur" href="pages/ici_ailleurs/">
                   <p>ici et ailleurs</p>
               </a>
           </div>
@@ -59,33 +59,33 @@
                   <p>palais royal</p>
               </a>
           </div>
-          <div class="songeEte">
+          <div class="songeEte small">
               <img src="images/miniatures/songe-ete.jpg" alt="">
-              <a class="textSongeEte small" href="pages/songe_ete/">
+              <a class="textSongeEte" href="pages/songe_ete/">
                   <p>songe d'un jour d'été</p>
               </a>
           </div>
-          <div class="villa">
+          <div class="villa small">
               <img src="images/miniatures/villa.jpg" alt="">
-              <a class="textVilla small" href="pages/villa_1920/">
+              <a class="textVilla" href="pages/villa_1920/">
                   <p>villa 1920</p>
               </a>
           </div>
-          <div class="display">
+          <div class="display small">
               <img src="images/miniatures/display.jpg" alt="">
-              <a class="textDisplay small" href="pages/display/">
+              <a class="textDisplay" href="pages/display/">
                   <p>display</p>
               </a>
           </div>
-          <div class="louvre">
+          <div class="louvre small">
               <img src="images/miniatures/louvre.jpg" alt="">
-              <a class="textLouvre small" href="pages/louvre/">
+              <a class="textLouvre" href="pages/louvre/">
                   <p>louvre</p>
               </a>
           </div>
-          <div class="notreDame">
+          <div class="notreDame small">
               <img src="images/miniatures/notre-dame.jpg" alt="">
-              <a class="textNotreDame small" href="pages/notre_dame/">
+              <a class="textNotreDame" href="pages/notre_dame/">
                   <p>notre-dame</p>
               </a>
           </div>

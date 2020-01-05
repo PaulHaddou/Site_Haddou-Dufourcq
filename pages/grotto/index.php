@@ -15,7 +15,7 @@
     include '../../header.php';
   ?>
   <main>
-    <div class="container">
+    <div class="container_ProjectsPages">
       <div class="slideshow-container">
         <div class="mySlides fade">
           <img src="../../images/projets/grotto/kim-haddou-florent-dufourcq-design-parade-toulon-2018-10.JPG" style="width:100%">

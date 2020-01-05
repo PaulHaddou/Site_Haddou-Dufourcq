@@ -4,6 +4,18 @@ main
   justify-content: center;
 }
 
+.container_ProjectsPages
+{
+  margin-top: 15vh;
+  align-items: center;
+  width: 90%;
+  margin-left: 0;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Slideshow container */
 .slideshow-container {
   width: 52vw;
@@ -99,8 +111,8 @@ main
 /*Description*/
 
 
-.description{
-  margin: 0 auto;
+.description
+{
   margin-bottom: 20vh;
   width : 70%;
 }
@@ -145,5 +157,15 @@ h2
   {
     opacity: 0;
   }
-  
+  .description
+  {
+    margin-bottom: 20vh;
+    width : 90%;
+    margin-top: 5%;
+  }
+  .credits
+  {
+    margin-top: 7%;
+    text-align: center;
+  }
 }

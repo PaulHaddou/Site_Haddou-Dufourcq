@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 96%;
 }
 
 .topnav a:nth-child(2)
@@ -21,7 +22,7 @@
 {
   font-family: 'Magneta-Thin';
   font-size: 0.6rem;
-  width: 80%;
+  width: 70%;
   margin: 5vh 0;
 }
 
