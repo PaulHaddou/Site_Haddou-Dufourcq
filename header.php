@@ -2,7 +2,7 @@
   <div class="headerContent">
     <div class="title">
         <a href="<?= $hrefProjects ?>">
-        <p> studio </p>
+        <p> <i>studio</i> </p>
         <p> haddou </p>
         <p> / dufourcq </p>
         </a>
@@ -20,7 +20,7 @@
 <div class="navbarMobile">
     <div class="navbarMobile--logo">
         <div class="logo--before"></div>
-        <a href="https://www.haddou-dufourcq.com">Studio Haddou Dufourcq</a>
+        <a href="https://www.haddou-dufourcq.com"> <i>studio</i> haddou dufourcq</a>
         <div class="logo--burger">
             <div class="burger--spans">
                 <span></span>

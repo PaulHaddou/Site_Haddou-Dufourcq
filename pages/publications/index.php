@@ -17,6 +17,8 @@
   <main>
     <div class="container">
         <div class="article">
+          <p><a href="../../pdf/INTERIOR+DESIGN-Russia-février-2020.pdf"> INTERIOR + DESIGN Russia - <i>février 2020</i> </a></p>
+          <p><a href="https://www.marieclaire.fr/maison/pourquoi-les-murs-a-la-chaux-sont-partout,1339330.asp"> MARIE-CLAIRE MAISON - <i>février 2020</i> </a></p>
           <p><a href="https://www.domino.com/content/recessed-wall-shelves/"> DOMINO - <i>décembre 2019</i> </a></p>
           <p><a href="../../pdf/ELLE DECORATION Design Parade Toulon Novembre 2019.pdf"> ELLE DECORATION - <i>novembre 2019</i> </a></p>
           <p><a href="../../pdf/IDEAT-American_Vintage.pdf"> IDEAT - <i>septembre 2019</i> </a></p>
@@ -30,7 +32,7 @@
           <p><a href="../../pdf/MILK Decoration Design Parade Toulon Septembre 2018.pdf"> MILK DECORATION- <i>septembre 2018</i> </a></p>
           <p><a href="https://www.ad-magazin.de/article/design-parade-toulon-haddou-dufourcq"> AD Germany - <i>septembre 2018</i> </a></p>
           <p><a href="../../pdf/IDEAT Design Parade Toulon Septembre 2018.pdf"> IDEAT- <i>septembre 2018</i> </a></p>
-          <p><a href="../../pdf/elle-deco-septembre-2018-kim-haddou-florent-dufourcq.pdf"> ELLE DECORATION- <i>septembre 2018</i> </a></p>
+          <p><a href="../../pdf/ELLE-DECORATION-septembre-2018-kim-haddou-florent-dufourcq.pdf"> ELLE DECORATION- <i>septembre 2018</i> </a></p>
           <p><a href="../../pdf/IDEAT Design Parade Toulon Juillet-Aout 2018.pdf"> IDEAT- <i>juillet-août 2018</i> </a></p>
           <p><a href="../../pdf/grazia-Juillet-2018-kim-haddou-florent-dufourcq.pdf"> GRAZIA- <i>juillet 2018</i> </a></p>
           <p><a href="https://www.admagazine.fr/design/actualite-design/diaporama/le-meilleur-de-la-design-parade-2018/51808#le-meilleur-de-la-design-parade-2018_image3"> AD France- <i>juillet 2018</i> </a></p>

@@ -132,13 +132,19 @@ header
     height: 75px;
     margin-left: 8vw;  
   }
+  .topnav a
+  {
+      color: black;
+      text-decoration: none;
+      font-size: 14px;
+      font-family: 'Magneta-Thin';
+  }
   .topnav a:not(:first-child) 
   {
     display: none;
   }
   .topnav a.icon {
     display: block;
-    /* margin-left: 36%; */
     width: 4%;
     margin-right: 6vw;
   }
@@ -162,21 +168,10 @@ header
     align-items: center;
     height: 75px;
   }
-
-  /* .title{
-    display: none;
-  } */
   .logoNav{
     display: inline;
     font-family: 'Magneta-Thin';
     font-weight: bold;
-  }
-  .topnav a
-  {
-      color: black;
-      text-decoration: none;
-      font-size: 14px;
-      font-family: 'Magneta-Thin';
   }
 }
 
@@ -224,6 +219,10 @@ body .navbarMobile .navbarMobile--logo a
   display: flex;
   justify-content: center;
   text-align: center;
+}
+body .navbarMobile .navbarMobile--logo a i 
+{
+  margin-right: 5px;
 }
 body .navbarMobile .navbarMobile--logo .logo--burger
 {
