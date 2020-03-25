@@ -21,56 +21,56 @@
         <main>
             <div class="container">
                 <div class="grotto">
-                    <img class="grottoImage" src="images/miniatures/grotto-1.JPG" alt="">
+                    <img class="grottoImage" src="images/miniatures/studio-haddou-dufourcq-grotto.jpg" alt="Photo illustrant le projet grotto réalisé pour la design parade 2018">
                     <a class="grottoTitles" href="pages/grotto/">
                         <p class="grottoTitlesMain">grotto</p>
                         <p class="grottoTitlesSubtitles">design parade 2018</p>
                     </a>
                 </div>
                 <div class="americanVintage">
-                    <img class="americanVintageImage" src="images/miniatures/Sarah_Mei_Herman-Studio_Haddou_Dufourcq-American_Vintage-Luc_Bertrand1.jpg" alt="">
+                    <img class="americanVintageImage" src="images/miniatures/studio-haddou-dufourcq-american_vintage.jpg" alt="Photo illustrant le projet american vintage">
                     <a class="americanVintageTitles" href="pages/american_vintage/">
                         <p class="americanVintageTitlesMain">american vintage</p>
                         <p class="americanVintageTitlesSubtitles">coalescence</p>
                     </a>
                 </div>
                 <div class="eliseDjoBourjoie">
-                    <img class="eliseDjoBourjoieImage" src="images/miniatures/kim-haddou-florent-dufourcq-elise-djo-bourgeois-emile-kirsch-1.jpg" alt="">
+                    <img class="eliseDjoBourjoieImage" src="images/miniatures/studio-haddou-dufourcq-elise_djo_bourgeois.jpg" alt="Photo illustrant le projet élise djo bourgeois réalisé pour la villa noailles">
                     <a class="eliseDjoBourjoieTitles" href="pages/elise-djo_bourgeois/">
                         <p class="eliseDjoBourjoieTitlesMain">élise djo-bourgeois</p>
                         <p class="eliseDjoBourjoieTitlesSubtitles">villa noailles</p>
                     </a>
                 </div>
                 <div class="fenetre">
-                    <img class="fenetreImage" src="images/miniatures/fenetre-sur-cours.jpg" alt="">
+                    <img class="fenetreImage" src="images/miniatures/studio-haddou-dufourcq-fenetre_sur_cours.jpg" alt="Photo illustrant le projet fenêtres sur cours réalisé pour la design parade 2019">
                     <a class="fenetreTitles" href="pages/fenetre_sur_cours/">
                         <p class="fenetreTitlesMain">fenêtres sur cours</p>
                         <p class="fenetreTitlesSubtitles">design parade 2019</p>
                     </a>
                 </div>
                 <div class="federation">
-                    <img class="federationImage" src="images/miniatures/studio_haddou_dufourcq_palais_de_tokyo_1.jpg" alt="">
+                    <img class="federationImage" src="images/miniatures/studio-haddou-dufourcq-palais_de_tokyo.jpg" alt="Photo illustrant le projet de la fédération de la haute couture exposé au palais de tokyo">
                     <a class="federationTitles" href="pages/federation/">
                         <p class="federationTitlesMain">fédération de la haute couture</p>
                         <p class="federationTitlesSubtitles">palais de tokyo</p>
                     </a>
                 </div>
                 <div class="hoas">
-                    <img class="hoasImage" src="images/miniatures/studio-haddou-dufourcq-HOAS-Collectible-evenbeeld-1.jpg" alt="">
+                    <img class="hoasImage" src="images/miniatures/studio-haddou-dufourcq-hoas_collectible.jpg" alt="Photo illustrant le projet HOAS">
                     <a class="hoasTitles" href="pages/hoas/">
                         <p class="hoasTitlesMain">hoas</p>
                         <p class="hoasTitlesSubtitles">collectible</p>
                     </a>
                 </div>
                 <div class="jeanHugo">
-                    <img class="jeanHugoImage" src="images/miniatures/studio-haddou-dufourcq-jean_hugo-1.jpg" alt="">
+                    <img class="jeanHugoImage" src="images/miniatures/studio-haddou-dufourcq-jean_hugo.jpg" alt="Photo illustrant le projet jean hugo pour la villa noailles">
                     <a class="jeanHugoTitles" href="pages/jeanHugo/">
                         <p class="jeanHugoTitlesMain">jean hugo</p>
                         <p class="jeanHugoTitlesSubtitles">villa noailles</p>
                     </a>
                 </div>
                 <div class="hyeres34">
-                    <img class="hyeres34Image" src="images/miniatures/Villa_Jury-Ministere_de_la_Culture_1.jpg" alt="">
+                    <img class="hyeres34Image" src="images/miniatures/studio-haddou-dufourcq-hyeres34.jpg" alt="Photo illustrant le projet hyères 34 réalisé pour le palais royal">
                     <a class="hyeres34Titles" href="pages/hyeres_34/">
                         <p class="hyeres34TitlesMain">hyères 34</p>
                         <p class="hyeres34TitlesMain">palais royal</p>
