@@ -1,6 +1,6 @@
 <?php
     $title = 'A propos';
-    $metaname = '';
+    $metaname = 'Selectionnés en 2018 par la Villa Noailles pour le concours Design Parade Toulon, ils reçoivent le Grand Prix du Jury Van Cleef and Arpels pour "Grotto", une petite pièce d\'inspiration méditérranéenne exposée tout l\'été dans l\'ancien évêché de la ville.';
     $css = 'styles/about.css';
     $cssHeader = '../../styles/header.css';
     $cssNavbarMobile = '../../styles/NavbarMobile.css';

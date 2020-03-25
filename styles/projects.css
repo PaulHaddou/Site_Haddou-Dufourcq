@@ -1,168 +1,466 @@
-.topnav a:nth-child(1)
-{
-  font-style: italic;
-  text-decoration:underline;
+:root {
+  --Primary-white: #fff;
+  --Primary-black: #080808;
+  --Primary-black66: rgba(8, 8, 8, 0.4);
+  --Font-Family-Main: Magneta-Thin;
+  --Cards-Width: 563px;
+  --Cards-Mobile-Width: 320px;
+  --Cards-Tall-Height: 845px;
+  --Cards-Tall-Mobile-Height: 388px;
+  --Cards-Small-Height: 422px;
+  --Cards-Small-Mobile-Height: 221px;
+  --Titles-Cards-Margin: 4px;
+  --Titles-Cards-Font-Size-Titles: 1.2rem;
+  --Titles-Cards-Font-Size-Subtitles: 1.05rem;
 }
 
-body 
-{
-  background: #fff;
-  font-family: 'Magneta-Thin';
+html {
+  width: 100vw;
+}
+
+html body {
+  background: var(--Primary-white);
+  font-family: var(--Font-Family-Main);
   font-weight: normal;
+  font-size: 62.5%;
   margin: 0;
   display: flex;
   justify-content: center;
 }
-body main 
-{
+
+html body .navbar .navbarContent .navbarContentSections .navbarContentSectionsLinks div:nth-child(1) {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+html body main {
   width: 100%;
+  height: fit-content;
   display: flex;
   justify-content: center;
   margin-top: 110px;
+  margin-bottom: 10vh;
 }
-body main .container
-{
-  width: 90%;
-  max-width: 1260px;
+
+html body main .container {
+  width: 1166px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 10vh;
 }
 
-body main .container .small
-{
-  position: relative;
-  width: 48%;
-  min-width: 402px;
-  height: 32.3vmax;
-}
-
-body main .container > div
-{
-  position: relative;
-  width: 48%;
-  min-width: 402px;
-  height: 73.4vmax;
-}
-
-
-.eliseDjoBourjoie
-{
-  margin-top: 3%;
-}
-.fenetre
-{
-  margin-top: -43%;
-}
-.iciEtAilleur
-{
-  margin-top: 3%;
-}
-.hyeres34
-{
-  margin-top: -43%;
-}
-.songeEte
-{
-  margin-top: 3%;
-}
-.villa
-{
-  margin-top: 3%;
-}
-.display
-{
-  margin-top: 3%;
-}
-.louvre
-{
-  margin-top: 3%;
-}
-.notreDame
-{
-  margin-top: 3%;
-}
-
-body main .container > div img 
-{
-  width: 100%;
-  height: 100%;
-}
-body main .container > div a
-{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+html body main .container .grotto {
   display: flex;
+  width: var(--Cards-Width);
+  height: var(--Cards-Tall-Height);
   flex-direction: column;
+  position: relative;
+}
+
+html body main .container .grotto .grottoImage {
+  width: 100%;
+  height: 100%;
+}
+
+html body main .container .grotto .grottoTitles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  background-color: #34343466;
-  opacity: 0;
+  flex-direction: column;
   text-decoration: none;
-  transition: opacity .8s ease;
+  color: var(--Primary-white);
+  font-family: var(--Font-Family-Main);
+  background-color: var(--Primary-black66);
+  opacity: 0;
+  transition: all 1.2s ease;
 }
 
-body main .container > div a p
-{
-  margin: 4px;
+html body main .container .grotto .grottoTitles .grottoTitlesMain {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Titles);
 }
-body main .container > div a p:nth-child(1)
-{
-  font-size: 0.8rem;
-  font-weight: normal;
-}
-body main .container > div a p:nth-child(2)
-{
-  font-size: 0.7rem;
-  font-weight: normal;
+
+html body main .container .grotto .grottoTitles .grottoTitlesSubtitles {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Subtitles);
   font-style: italic;
 }
-body main .container > div a:hover
-{
+
+html body main .container .grotto .grottoTitles:hover {
   opacity: 1;
-  transition: opacity .8s ease;
+  transition: all 1.2s ease;
 }
 
+html body main .container .americanVintage {
+  display: flex;
+  width: var(--Cards-Width);
+  height: var(--Cards-Small-Height);
+  flex-direction: column;
+  position: relative;
+}
 
+html body main .container .americanVintage .americanVintageImage {
+  width: 100%;
+  height: 100%;
+}
 
-@media all and (max-width: 910px)
-{
-  body main .container
-  {
-    justify-content: center;
-  }
-  body main .container > div
-  {
-    width: 90%;
-    height: fit-content;
-    margin-top: 20px;
+html body main .container .americanVintage .americanVintageTitles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--Primary-white);
+  font-family: var(--Font-Family-Main);
+  background-color: var(--Primary-black66);
+  opacity: 0;
+  transition: all 1.2s ease;
+}
+
+html body main .container .americanVintage .americanVintageTitles .americanVintageTitlesMain {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Titles);
+}
+
+html body main .container .americanVintage .americanVintageTitles .americanVintageTitlesSubtitles {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Subtitles);
+  font-style: italic;
+}
+
+html body main .container .americanVintage .americanVintageTitles:hover {
+  opacity: 1;
+  transition: all 1.2s ease;
+}
+
+html body main .container .eliseDjoBourjoie {
+  display: flex;
+  width: var(--Cards-Width);
+  height: var(--Cards-Tall-Height);
+  flex-direction: column;
+  position: relative;
+}
+
+html body main .container .eliseDjoBourjoie .eliseDjoBourjoieImage {
+  width: 100%;
+  height: 100%;
+}
+
+html body main .container .eliseDjoBourjoie .eliseDjoBourjoieTitles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--Primary-white);
+  font-family: var(--Font-Family-Main);
+  background-color: var(--Primary-black66);
+  opacity: 0;
+  transition: all 1.2s ease;
+}
+
+html body main .container .eliseDjoBourjoie .eliseDjoBourjoieTitles .eliseDjoBourjoieTitlesMain {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Titles);
+}
+
+html body main .container .eliseDjoBourjoie .eliseDjoBourjoieTitles .eliseDjoBourjoieTitlesSubtitles {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Subtitles);
+  font-style: italic;
+}
+
+html body main .container .eliseDjoBourjoie .eliseDjoBourjoieTitles:hover {
+  opacity: 1;
+  transition: all 1.2s ease;
+}
+
+html body main .container .fenetre {
+  display: flex;
+  width: var(--Cards-Width);
+  height: var(--Cards-Tall-Height);
+  flex-direction: column;
+  position: relative;
+}
+
+html body main .container .fenetre .fenetreImage {
+  width: 100%;
+  height: 100%;
+}
+
+html body main .container .fenetre .fenetreTitles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--Primary-white);
+  font-family: var(--Font-Family-Main);
+  background-color: var(--Primary-black66);
+  opacity: 0;
+  transition: all 1.2s ease;
+}
+
+html body main .container .fenetre .fenetreTitles .fenetreTitlesMain {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Titles);
+}
+
+html body main .container .fenetre .fenetreTitles .fenetreTitlesSubtitles {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Subtitles);
+  font-style: italic;
+}
+
+html body main .container .fenetre .fenetreTitles:hover {
+  opacity: 1;
+  transition: all 1.2s ease;
+}
+
+html body main .container .federation {
+  display: flex;
+  width: var(--Cards-Width);
+  height: var(--Cards-Tall-Height);
+  flex-direction: column;
+  position: relative;
+}
+
+html body main .container .federation .federationImage {
+  width: 100%;
+  height: 100%;
+}
+
+html body main .container .federation .federationTitles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--Primary-white);
+  font-family: var(--Font-Family-Main);
+  background-color: var(--Primary-black66);
+  opacity: 0;
+  transition: all 1.2s ease;
+}
+
+html body main .container .federation .federationTitles .federationTitlesMain {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Titles);
+}
+
+html body main .container .federation .federationTitles .federationTitlesSubtitles {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Subtitles);
+  font-style: italic;
+}
+
+html body main .container .federation .federationTitles:hover {
+  opacity: 1;
+  transition: all 1.2s ease;
+}
+
+html body main .container .hoas {
+  display: flex;
+  width: var(--Cards-Width);
+  height: var(--Cards-Tall-Height);
+  flex-direction: column;
+  position: relative;
+}
+
+html body main .container .hoas .hoasImage {
+  width: 100%;
+  height: 100%;
+}
+
+html body main .container .hoas .hoasTitles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--Primary-white);
+  font-family: var(--Font-Family-Main);
+  background-color: var(--Primary-black66);
+  opacity: 0;
+  transition: all 1.2s ease;
+}
+
+html body main .container .hoas .hoasTitles .hoasTitlesMain {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Titles);
+}
+
+html body main .container .hoas .hoasTitles .hoasTitlesSubtitles {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Subtitles);
+  font-style: italic;
+}
+
+html body main .container .hoas .hoasTitles:hover {
+  opacity: 1;
+  transition: all 1.2s ease;
+}
+
+html body main .container .jeanHugo {
+  display: flex;
+  width: var(--Cards-Width);
+  height: var(--Cards-Small-Height);
+  flex-direction: column;
+  position: relative;
+}
+
+html body main .container .jeanHugo .jeanHugoImage {
+  width: 100%;
+  height: 100%;
+}
+
+html body main .container .jeanHugo .jeanHugoTitles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--Primary-white);
+  font-family: var(--Font-Family-Main);
+  background-color: var(--Primary-black66);
+  opacity: 0;
+  transition: all 1.2s ease;
+}
+
+html body main .container .jeanHugo .jeanHugoTitles .jeanHugoTitlesMain {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Titles);
+}
+
+html body main .container .jeanHugo .jeanHugoTitles .jeanHugoTitlesSubtitles {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Subtitles);
+  font-style: italic;
+}
+
+html body main .container .jeanHugo .jeanHugoTitles:hover {
+  opacity: 1;
+  transition: all 1.2s ease;
+}
+
+html body main .container .hyeres34 {
+  display: flex;
+  width: var(--Cards-Width);
+  height: var(--Cards-Tall-Height);
+  flex-direction: column;
+  position: relative;
+}
+
+html body main .container .hyeres34 .hyeres34Image {
+  width: 100%;
+  height: 100%;
+}
+
+html body main .container .hyeres34 .hyeres34Titles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--Primary-white);
+  font-family: var(--Font-Family-Main);
+  background-color: var(--Primary-black66);
+  opacity: 0;
+  transition: all 1.2s ease;
+}
+
+html body main .container .hyeres34 .hyeres34Titles .hyeres34TitlesMain {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Titles);
+}
+
+html body main .container .hyeres34 .hyeres34Titles .hyeres34TitlesSubtitles {
+  margin: var(--Titles-Cards-Margin);
+  font-size: var(--Titles-Cards-Font-Size-Subtitles);
+  font-style: italic;
+}
+
+html body main .container .hyeres34 .hyeres34Titles:hover {
+  opacity: 1;
+  transition: all 1.2s ease;
+}
+
+html body main .container div:nth-child(2n+3) {
+  margin-top: 30px;
+}
+
+html body main .container div:nth-child(2n+4) {
+  margin-top: -392px;
+}
+
+@media all and (max-width: 910px) {
+  html body {
+    width: 100%;
     display: flex;
     justify-content: center;
   }
-  body main .container .small
-  {
-    width: 90%;
-    height: fit-content;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-  }
-  body main .container > div img 
-  {
+  html body main .container {
     width: 80%;
-    height : 100%;
+    margin-bottom: 5vh;
   }
-  .notreDame
-  {
-    margin-bottom: 10vh;
+  html body main .container .grotto {
+    width: var(--Cards-Mobile-Width);
+    height: var(--Cards-Tall-Mobile-Height);
   }
-  body main .container > div a:hover
-  {
-    opacity: 0;
+  html body main .container .americanVintage {
+    width: var(--Cards-Mobile-Width);
+    height: var(--Cards-Small-Mobile-Height);
+  }
+  html body main .container .eliseDjoBourjoie {
+    width: var(--Cards-Mobile-Width);
+    height: var(--Cards-Tall-Mobile-Height);
+  }
+  html body main .container .fenetre {
+    width: var(--Cards-Mobile-Width);
+    height: var(--Cards-Tall-Mobile-Height);
+  }
+  html body main .container .federation {
+    width: var(--Cards-Mobile-Width);
+    height: var(--Cards-Tall-Mobile-Height);
+  }
+  html body main .container .hoas {
+    width: var(--Cards-Mobile-Width);
+    height: var(--Cards-Tall-Mobile-Height);
+  }
+  html body main .container .jeanHugo {
+    width: var(--Cards-Mobile-Width);
+    height: var(--Cards-Small-Mobile-Height);
+  }
+  html body main .container .hyeres34 {
+    width: var(--Cards-Mobile-Width);
+    height: var(--Cards-Tall-Mobile-Height);
+  }
+  html body main .container div:nth-child(1n+1) {
+    margin-top: 30px;
   }
 }

@@ -39,7 +39,7 @@
         <span class="dot" onclick="currentSlide(4)"></span>
       </div>
       <div class="description">
-        <h2>hyéres 34</h2>
+        <h2>hyères 34</h2>
         <div class="line"></div>
         <div class="text">
           <p class="texttitle">2019</p>

@@ -1,6 +1,6 @@
 <?php
     $title = 'american vintage';
-    $metaname = '';
+    $metaname = 'Scénographie pour l’exposition « coalescence » de la photographe Sarah Mei Herman. Boutique American Vintage rue Vieille du Temple, Paris.';
     $css = '../../styles/projectsPages.css';
     $cssHeader = '../../styles/header.css';
     $fonts = '../../fonts/MyFontsWebfontsKit.css';

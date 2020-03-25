@@ -4,5 +4,6 @@ Disallow: pages/ici_ailleurs/index.php
 Disallow: /contact/index.php
 Disallow: /about/index.php
 Disallow: /about/about.html
+Disallow: /about/
 Disallow: /contact/contact.html
 Disallow: pages/se_poser/se_poser.html
