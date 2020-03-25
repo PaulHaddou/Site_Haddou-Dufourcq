@@ -1,7 +1,7 @@
 <?php
     $title = 'Kim Haddou & Florent Dufourcq';
     $metaname = 'Studio de design d\'intérieur basé à Paris, dirigé par Kim Haddou et Florent Dufourcq - Grand Prix Van Cleef and Arpels - Design Parade Toulon 2018 - Villa Noailles';
-    $css = 'styles/projects.css';
+    $css = 'styles/projects/projects.min.css';
     $cssNavbar = 'styles/navbar/navbar.min.css';
     $cssNavbarMobile = 'styles/navbarMobile/navbarMobile.min.css';
     $fonts = 'fonts/MyFontsWebfontsKit.css';
