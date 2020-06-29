@@ -1,9 +1,19 @@
 <?php
-    $title = 'fenêtres sur cours';
-    $metaname = '';
-    $css = '../../styles/projectsPages.css';
-    $cssHeader = '../../styles/header.css';
+    $pathToImages = 'fenetre_sur_cours';
+    $nameOfTheProject = 'fenêtre sur cours';
+    $dateOfTheProject = '2019';
+    $textOfTheProject = 'Avec le soutien précieux de: Villa Noailles, Pierre Frey, Codimat, Gubi, Galerie Desprez Breheret, Atelier de la Mousse, Atelier Lorenzi, Centre archéologique du Var, Degrés 960, FRAC PACA, Capag.';
+    $localisationOfTheProject = 'Design Parade Toulon, France.';
+    $creditsOfTheProject = 'Luc Bertrand, Julien Oppenheim.';
+
+
+    $title = 'fenêtre sur cours';
+    $metaname = 'Design Parade, Toulon 2019.';
+    $css = '../../styles/projectsPages/projectsPages.css';
+    $cssNavbar = '../../styles/navbar/navbar.min.css';
+    $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
     $fonts = '../../fonts/MyFontsWebfontsKit.css';
+    $slider = '../../styles/slider/slider.min.css';
     include '../../head.php';
 ?>
   <body>
@@ -12,57 +22,58 @@
     $hrefAbout = '../about/';
     $hrefPublications = '../publications/';
     $hrefContact = '../contact/';
-    include '../../header.php';
+    include '../../navbar.php';
+    include '../../navbarMobile.php';
   ?>
   <main>
     <div class="container">
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img src="../../images/projets/fenetre_sur_cours/Studio-Haddou-Dufourcq_fenetre-sur-cours_J.Oppenheim_1.jpg" style="width:100%">
+        <div class="carousel">
+            <div class="previous">
+                <div class ="left-arrow"></div>
+            </div>
+            <div class="carousel--imgs">
+                <div class="imgs--all">
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-1.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-4.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-5.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-6.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="next">
+                <div class ="right-arrow"></div>
+            </div>
         </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/fenetre_sur_cours/Studio-Haddou-Dufourcq_fenetre-sur-cours_J.Oppenheim_2.jpg" style="width:100%">
+        <div class="container--pagination">
         </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/fenetre_sur_cours/Studio-Haddou-Dufourcq_fenetre-sur-cours_Luc-Bertrand_3.jpg" style="width:100%">
+        <div class="description">
+          <h2 class="descriptionTitle"><?= $nameOfTheProject?></h2>
+          <div class="descriptionContent">
+            <p class="descriptionContentDate"><?= $dateOfTheProject ?></p>
+            <p class="descriptionContentText"><?= $textOfTheProject ?></p>
+            <p class="descriptionContentLocalisation"><?= $localisationOfTheProject ?></p>
+            <p class="descriptionContentCredits"> <?= $creditsOfTheProject ?></p>
+          </div>
         </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/fenetre_sur_cours/Studio-Haddou-Dufourcq_fenetre-sur-cours_J.Oppenheim_4.jpg" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/fenetre_sur_cours/Studio-Haddou-Dufourcq_fenetre-sur-cours_Luc-Bertrand_5.jpg" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/fenetre_sur_cours/Studio-Haddou-Dufourcq_fenetre-sur-cours_Luc-Bertrand_6.jpg" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/fenetre_sur_cours/Studio-Haddou-Dufourcq_fenetre-sur-cours_Luc-Bertrand_7.jpg" style="width:100%">
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <div class="dotDiv">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
-        <span class="dot" onclick="currentSlide(7)"></span>
-      </div>
-      <div class="description">
-        <h2>fenêtres sur cours</h2>
-        <div class="text">
-          <p class="texttitle">Design Parade Toulon, France, 2019</p>
-          <p class="texttxt">Avec le soutien précieux de: Villa Noailles, Pierre Frey, Codimat, Gubi, Galerie</p>
-          <p class="texttxt">Desprez Breheret, Atelier de la Mousse, Atelier Lorenzi, Centre archéologique du Var, </p>
-          <p class="texttxt">Degrés 960, FRAC PACA, Capag.</p>
-          <p class="credits"> Photos: Luc Bertrand, Julien Oppenheim.
-        </div>
-      </div>
     </div>
   </main>
   <script type="text/javascript" src="../../scripts/burger.js"></script>
-  <script type="text/javascript" src="../../scripts/slider.js"></script>
+  <script src="../../scripts/slider.js"></script>
   </body>
 </html>

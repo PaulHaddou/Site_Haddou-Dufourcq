@@ -1,9 +1,19 @@
 <?php
+    $pathToImages = 'american_vintage';
+    $nameOfTheProject = 'american vintage';
+    $dateOfTheProject = '2018';
+    $textOfTheProject = 'Scénographie pour l’exposition « coalescence » de la photographe Sarah Mei Herman.';
+    $localisationOfTheProject = 'Boutique American Vintage rue Vieille du Temple, Paris.';
+    $creditsOfTheProject = 'Luc Bertrand.';
+
+
     $title = 'american vintage';
-    $metaname = 'Scénographie pour l’exposition « coalescence » de la photographe Sarah Mei Herman. Boutique American Vintage rue Vieille du Temple, Paris.';
-    $css = '../../styles/projectsPages.css';
-    $cssHeader = '../../styles/header.css';
+    $metaname = $textOfTheProject;
+    $css = '../../styles/projectsPages/projectsPages.css';
+    $cssNavbar = '../../styles/navbar/navbar.min.css';
+    $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
     $fonts = '../../fonts/MyFontsWebfontsKit.css';
+    $slider = '../../styles/slider/slider.min.css';
     include '../../head.php';
 ?>
   <body>
@@ -12,53 +22,55 @@
     $hrefAbout = '../about/';
     $hrefPublications = '../publications/';
     $hrefContact = '../contact/';
-    include '../../header.php';
+    include '../../navbar.php';
+    include '../../navbarMobile.php';
   ?>
   <main>
     <div class="container">
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img src="../../images/projets/american_vintage/Sarah_Mei_Herman-Studio_Haddou_Dufourcq-American_Vintage-Luc Bertrand1.jpg" style="width:100%">
+        <div class="carousel">
+            <div class="previous">
+                <div class ="left-arrow"></div>
+            </div>
+            <div class="carousel--imgs">
+                <div class="imgs--all">
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-1.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-4.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-5.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="next">
+                <div class ="right-arrow"></div>
+            </div>
         </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/american_vintage/Sarah_Mei_Herman-Studio_Haddou_Dufourcq-American_Vintage-Luc Bertrand2.jpg" style="width:100%">
+        <div class="container--pagination">
         </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/american_vintage/Sarah_Mei_Herman-Studio_Haddou_Dufourcq-American_Vintage-Luc Bertrand3.jpg" style="width:100%">
+        <div class="description">
+          <h2 class="descriptionTitle"><?= $nameOfTheProject ?></h2>
+          <div class="descriptionContent">
+            <p class="descriptionContentDate"><?= $dateOfTheProject ?></p>
+            <p class="descriptionContentText"><?= $textOfTheProject ?></p>
+            <p class="descriptionContentLocalisation"><?= $localisationOfTheProject ?></p>
+            <p class="descriptionContentCredits"> Photos: <?= $creditsOfTheProject ?></p>
+          </div>
         </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/american_vintage/Sarah_Mei_Herman-Studio_Haddou_Dufourcq-American_Vintage-Luc Bertrand4.jpg" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/american_vintage/Sarah_Mei_Herman-Studio_Haddou_Dufourcq-American_Vintage-Luc Bertrand5.jpg" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/american_vintage/Sarah_Mei_Herman-Studio_Haddou_Dufourcq-American_Vintage-Luc Bertrand6.jpg" style="width:100%">
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <div class="dotDiv">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
-      </div>
-      <div class="description">
-        <h2>american vintage</h2>
-        <div class="line"></div>
-        <div class="text">
-          <p class="texttitle">2018 </p>
-          <p class="texttxt">Scénographie pour l’exposition « coalescence » de la photographe Sarah Mei Herman.</p>
-          <p class="texttxt">Boutique American Vintage rue Vieille du Temple, Paris.</p>
-          <p class="credits"> Photos: Luc Bertrand
-        </div>
-      </div>
     </div>
   </main>
   <script type="text/javascript" src="../../scripts/burger.js"></script>
-  <script type="text/javascript" src="../../scripts/slider.js"></script>
+  <script src="../../scripts/slider.js"></script>
   </body>
 </html>

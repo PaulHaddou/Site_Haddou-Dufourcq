@@ -6,12 +6,13 @@
 
     --Font-Family-Main : Magneta-Thin;
 
-    --Cards-Width : 563px;
+    --Cards-Width : 48%;
     --Cards-Mobile-Width : 320px;
-    --Cards-Tall-Height : 845px;
-    --Cards-Tall-Mobile-Height : 388px;
-    --Cards-Small-Height : 422px;
-    --Cards-Small-Mobile-Height : 221px;
+    --Cards-Tall-Height : 59.5vw;
+    --Cards-Tall-Mobile-Height : 450px;
+    --Cards-Djo-Mobile-Height : 372px;
+    --Cards-Small-Height : 29.75vw;
+    --Cards-Small-Mobile-Height : 200px;
 
     --Titles-Cards-Margin : 4px;
     --Titles-Cards-Font-Size-Titles : 1.2rem;
@@ -62,7 +63,7 @@ html
 
             .container
             {
-                width: 1166px;
+                width: 80%;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
@@ -318,7 +319,7 @@ html
                     }
                 }
 
-                .hoas
+                .haos
                 {
                     display: flex;
                     width: var(--Cards-Width);
@@ -326,13 +327,13 @@ html
                     flex-direction: column;
                     position: relative;
                 
-                    .hoasImage
+                    .haosImage
                     {
                         width: 100%;
                         height: 100%;
                     }
                 
-                    .hoasTitles
+                    .haosTitles
                     {
                         position: absolute;
                         width: 100%;
@@ -348,12 +349,12 @@ html
                         opacity: 0;
                         transition: all 1.2s ease;
                     
-                        .hoasTitlesMain
+                        .haosTitlesMain
                         {
                             margin: var(--Titles-Cards-Margin);
                             font-size: var(--Titles-Cards-Font-Size-Titles);
                         }
-                        .hoasTitlesSubtitles
+                        .haosTitlesSubtitles
                         {
                             margin: var(--Titles-Cards-Margin);
                             font-size: var(--Titles-Cards-Font-Size-Subtitles);
@@ -361,7 +362,7 @@ html
                         }
                     }
                 
-                    .hoasTitles:hover
+                    .haosTitles:hover
                     {
                         opacity: 1;
                         transition: all 1.2s ease;
@@ -481,7 +482,7 @@ html
                 div:nth-child(2n+4)
                 {
 
-                    margin-top: -392px;
+                    margin-top: calc(-29.75vw + 30px);
 
                 }
             }
@@ -506,6 +507,8 @@ html
                 .container
                 {
                     width: 80%;
+                    flex-direction: column;
+                    align-items: center;
                     margin-bottom: 5vh;
 
                     .grotto
@@ -523,7 +526,7 @@ html
                     .eliseDjoBourjoie
                     {
                         width: var(--Cards-Mobile-Width);
-                        height: var(--Cards-Tall-Mobile-Height);
+                        height: var(--Cards-Djo-Mobile-Height);
                     }
 
                     .fenetre
@@ -538,11 +541,10 @@ html
                         height: var(--Cards-Tall-Mobile-Height);
                     }
 
-                    .hoas
+                    .haos
                     {
                         width: var(--Cards-Mobile-Width);
                         height: var(--Cards-Tall-Mobile-Height);
-
                     }
 
                     .jeanHugo

@@ -3,12 +3,13 @@
   --Primary-black: #080808;
   --Primary-black66: rgba(8, 8, 8, 0.4);
   --Font-Family-Main: Magneta-Thin;
-  --Cards-Width: 563px;
+  --Cards-Width: 48%;
   --Cards-Mobile-Width: 320px;
-  --Cards-Tall-Height: 845px;
-  --Cards-Tall-Mobile-Height: 388px;
-  --Cards-Small-Height: 422px;
-  --Cards-Small-Mobile-Height: 221px;
+  --Cards-Tall-Height: 59.5vw;
+  --Cards-Tall-Mobile-Height: 450px;
+  --Cards-Djo-Mobile-Height: 372px;
+  --Cards-Small-Height: 29.75vw;
+  --Cards-Small-Mobile-Height: 200px;
   --Titles-Cards-Margin: 4px;
   --Titles-Cards-Font-Size-Titles: 1.2rem;
   --Titles-Cards-Font-Size-Subtitles: 1.05rem;
@@ -43,7 +44,7 @@ html body main {
 }
 
 html body main .container {
-  width: 1166px;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -275,7 +276,7 @@ html body main .container .federation .federationTitles:hover {
   transition: all 1.2s ease;
 }
 
-html body main .container .hoas {
+html body main .container .haos {
   display: flex;
   width: var(--Cards-Width);
   height: var(--Cards-Tall-Height);
@@ -283,12 +284,12 @@ html body main .container .hoas {
   position: relative;
 }
 
-html body main .container .hoas .hoasImage {
+html body main .container .haos .haosImage {
   width: 100%;
   height: 100%;
 }
 
-html body main .container .hoas .hoasTitles {
+html body main .container .haos .haosTitles {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -304,18 +305,18 @@ html body main .container .hoas .hoasTitles {
   transition: all 1.2s ease;
 }
 
-html body main .container .hoas .hoasTitles .hoasTitlesMain {
+html body main .container .haos .haosTitles .haosTitlesMain {
   margin: var(--Titles-Cards-Margin);
   font-size: var(--Titles-Cards-Font-Size-Titles);
 }
 
-html body main .container .hoas .hoasTitles .hoasTitlesSubtitles {
+html body main .container .haos .haosTitles .haosTitlesSubtitles {
   margin: var(--Titles-Cards-Margin);
   font-size: var(--Titles-Cards-Font-Size-Subtitles);
   font-style: italic;
 }
 
-html body main .container .hoas .hoasTitles:hover {
+html body main .container .haos .haosTitles:hover {
   opacity: 1;
   transition: all 1.2s ease;
 }
@@ -415,7 +416,7 @@ html body main .container div:nth-child(2n+3) {
 }
 
 html body main .container div:nth-child(2n+4) {
-  margin-top: -392px;
+  margin-top: calc(-29.75vw + 30px);
 }
 
 @media all and (max-width: 910px) {
@@ -426,6 +427,8 @@ html body main .container div:nth-child(2n+4) {
   }
   html body main .container {
     width: 80%;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 5vh;
   }
   html body main .container .grotto {
@@ -438,7 +441,7 @@ html body main .container div:nth-child(2n+4) {
   }
   html body main .container .eliseDjoBourjoie {
     width: var(--Cards-Mobile-Width);
-    height: var(--Cards-Tall-Mobile-Height);
+    height: var(--Cards-Djo-Mobile-Height);
   }
   html body main .container .fenetre {
     width: var(--Cards-Mobile-Width);
@@ -448,7 +451,7 @@ html body main .container div:nth-child(2n+4) {
     width: var(--Cards-Mobile-Width);
     height: var(--Cards-Tall-Mobile-Height);
   }
-  html body main .container .hoas {
+  html body main .container .haos {
     width: var(--Cards-Mobile-Width);
     height: var(--Cards-Tall-Mobile-Height);
   }

@@ -1,0 +1,116 @@
+:root
+{
+    --Primary-white : #fff;
+    --Primary-black : #080808;
+    --Primary-black66 : rgba(8, 8, 8, 0.4);;
+
+    --Font-Family-Main : Magneta-Thin;
+
+    --Cards-Width : 563px;
+    --Cards-Mobile-Width : 320px;
+    --Cards-Tall-Height : 845px;
+    --Cards-Tall-Mobile-Height : 388px;
+    --Cards-Small-Height : 422px;
+    --Cards-Small-Mobile-Height : 221px;
+
+    --Titles-Cards-Margin : 4px;
+    --Description-Title-Font-Size : 1.2rem;
+    --Description-Text-Font-Size : 0.9rem;
+
+
+
+}
+
+
+body
+{
+  font-family: var(--Font-Family-Main);
+  display: flex;
+  width: 100vw;
+  margin: 0;
+  main 
+  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    width: 100%;
+
+    .container 
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .description
+      {
+        width : 80%;
+        margin-top: 55px;
+        margin-bottom: 10vh;
+        .descriptionTitle
+        {
+          font-size: var(--Description-Title-Font-Size);
+          margin: 0;
+          color: var(--Primary-black);
+        }
+        .descriptionContent
+        {
+          font-family:'Magneta-Thin';
+          font-size: var(--Description-Text-Font-Size);
+          .descriptionContentDate
+          {
+
+          }
+          .descriptionContentText
+          {
+
+          }
+          .descriptionContentLocalisation
+          {
+
+          }
+          .descriptionContentCredits
+          {
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 910px) 
+{
+  body
+{
+  main 
+  {
+    .container 
+    {
+      .description
+      {
+        width : 80%;
+        margin-top: 25px;
+        margin-bottom: 10vh;
+        .descriptionTitle
+        {
+        }
+        .descriptionContent
+        {
+          .descriptionContentDate
+          {
+          }
+          .descriptionContentText
+          {
+          }
+          .descriptionContentLocalisation
+          {
+          }
+          .descriptionContentCredits
+          {
+          }
+        }
+      }
+    }
+  }
+}
+}

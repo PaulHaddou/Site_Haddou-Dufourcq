@@ -1,0 +1,60 @@
+:root
+{
+    --Current-Text-Font-Size: 1.2rem;
+}
+
+html
+{
+    height: 100vh;
+    body 
+    {
+        margin: 0;
+        height: 100%;
+        main 
+        {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            .container
+            {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 110px;
+                .errorText
+                {
+                    font-size: var(--Current-Text-Font-Size);
+                }
+                .linkBackToSite
+                {
+                    font-size: var(--Current-Text-Font-Size);
+                    color: var(--Primary-black);
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 910px)
+{
+    html
+    {
+        body 
+        {
+            main 
+            {
+                justify-content: center;
+                .container
+                {
+                    width: 80%;
+                    .errorText
+                    {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

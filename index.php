@@ -1,10 +1,11 @@
 <?php
     $title = 'Kim Haddou & Florent Dufourcq';
-    $metaname = 'Studio de design d\'intérieur basé à Paris, dirigé par Kim Haddou et Florent Dufourcq - Grand Prix Van Cleef and Arpels - Design Parade Toulon 2018 - Villa Noailles';
+    $metaname = 'Interior design studio based in Paris, France - Grand Prix Van Cleef and Arpels - Design Parade Toulon 2018 - Villa Noailles';
     $css = 'styles/projects/projects.min.css';
     $cssNavbar = 'styles/navbar/navbar.min.css';
     $cssNavbarMobile = 'styles/navbarMobile/navbarMobile.min.css';
     $fonts = 'fonts/MyFontsWebfontsKit.css';
+    $slider = 'styles/slider/slider.min.css';
     include 'head.php';
 ?>
     <body>
@@ -49,29 +50,29 @@
                     </a>
                 </div>
                 <div class="federation">
-                    <img class="federationImage" src="images/miniatures/studio-haddou-dufourcq-palais_de_tokyo.jpg" alt="Photo illustrant le projet de la fédération de la haute couture exposé au palais de tokyo">
+                    <img class="federationImage" src="images/miniatures/studio-haddou-dufourcq-federation.jpg" alt="Photo illustrant le projet de la fédération de la haute couture exposé au palais de tokyo">
                     <a class="federationTitles" href="pages/federation/">
                         <p class="federationTitlesMain">fédération de la haute couture</p>
                         <p class="federationTitlesSubtitles">palais de tokyo</p>
                     </a>
                 </div>
-                <div class="hoas">
-                    <img class="hoasImage" src="images/miniatures/studio-haddou-dufourcq-hoas_collectible.jpg" alt="Photo illustrant le projet HOAS">
-                    <a class="hoasTitles" href="pages/hoas/">
-                        <p class="hoasTitlesMain">hoas</p>
-                        <p class="hoasTitlesSubtitles">collectible</p>
+                <div class="haos">
+                    <img class="haosImage" src="images/miniatures/studio-haddou-dufourcq-haos.jpg" alt="Photo illustrant le projet HAOS">
+                    <a class="haosTitles" href="pages/haos/">
+                        <p class="haosTitlesMain">haos</p>
+                        <p class="haosTitlesSubtitles">collectible</p>
                     </a>
                 </div>
                 <div class="jeanHugo">
                     <img class="jeanHugoImage" src="images/miniatures/studio-haddou-dufourcq-jean_hugo.jpg" alt="Photo illustrant le projet jean hugo pour la villa noailles">
-                    <a class="jeanHugoTitles" href="pages/jeanHugo/">
+                    <a class="jeanHugoTitles" href="pages/jean_hugo/">
                         <p class="jeanHugoTitlesMain">jean hugo</p>
                         <p class="jeanHugoTitlesSubtitles">villa noailles</p>
                     </a>
                 </div>
                 <div class="hyeres34">
                     <img class="hyeres34Image" src="images/miniatures/studio-haddou-dufourcq-hyeres34.jpg" alt="Photo illustrant le projet hyères 34 réalisé pour le palais royal">
-                    <a class="hyeres34Titles" href="pages/hyeres_34/">
+                    <a class="hyeres34Titles" href="pages/hyeres34/">
                         <p class="hyeres34TitlesMain">hyères 34</p>
                         <p class="hyeres34TitlesMain">palais royal</p>
                     </a>

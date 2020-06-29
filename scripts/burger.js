@@ -32,7 +32,7 @@ burger.addEventListener( 'click', () =>
     } else {
         navbarLinks.style.height = "30vh";
         navbarLinks.style.transition = "all 2s ease";
-        spanBurgerTop.style.transform = "translateX(-5px) rotate(135deg) translateY(-8.5px)";
+        spanBurgerTop.style.transform = "translateX(-2px) rotate(135deg) translateY(-5px)";
         spanBurgerTop.style.transition = "all 0.5s ease";
         spanBurgerMid.style.opacity = "0";
         spanBurgerMid.style.transition = "all 0.5s ease";

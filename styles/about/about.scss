@@ -1,0 +1,116 @@
+:root
+{
+    --Current-Text-Font-Size : 0.9rem;
+}
+
+
+
+body
+{
+  font-family: 'Magneta-Thin';
+}
+
+
+html
+{
+    body 
+    {
+        margin: 0;
+        width: 100%;
+        main 
+        {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .container
+            {
+                width: 80%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                margin-top: 110px;
+                .aboutDescription
+                {
+                    display: flex;
+                    width: 50%;
+                    flex-direction: column;
+                    .aboutDescriptionTexts
+                    {
+                        font-size: var(--Current-Text-Font-Size);
+                        line-height: 21.6px;
+                        margin-top: 0;
+                    }
+                }
+                .aboutImg
+                {
+                    width: 467px;
+                }
+            }
+        }
+        .navbarContentSectionsLinks div:nth-child(2)
+        {
+            font-style: italic;
+            text-decoration: underline;
+        }
+    }
+}
+
+@media all and (max-width: 1168px)
+{
+    html
+    {
+        body 
+        {
+            main 
+            {
+                .container
+                {
+                    width: 80%;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column-reverse;
+                    flex-wrap: wrap;
+                    margin: 110px 0 10vh 0;
+                    .aboutDescription
+                    {
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 910px)
+{
+    html
+    {
+        body 
+        {
+            main 
+            {
+                .container
+                {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column-reverse;
+                    flex-wrap: wrap;
+                    margin: 110px 0 10vh 0;
+                    .aboutDescription
+                    {
+                        width: 80%;
+                        margin-top: 40px;
+                    }
+                    .aboutImg
+                    {
+                        width: 80%;
+                    }
+
+                }
+            }
+        }
+    }
+}

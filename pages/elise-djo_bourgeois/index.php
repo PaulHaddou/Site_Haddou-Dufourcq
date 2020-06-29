@@ -1,9 +1,19 @@
 <?php
+    $pathToImages = 'elise_djo_bourgeois';
+    $nameOfTheProject = 'élise djo bourgeois';
+    $dateOfTheProject = '2018';
+    $textOfTheProject = 'Scénographie de l’exposition consacrée à la designer textile Elise Djo-Bourgeois.';
+    $localisationOfTheProject = 'Villa Noailles, Hyères.';
+    $creditsOfTheProject = 'Emile Kirsch.';
+
+
     $title = 'élise djo-bourgeois';
-    $metaname = '';
-    $css = '../../styles/projectsPages.css';
-    $cssHeader = '../../styles/header.css';
+    $metaname = $textOfTheProject;
+    $css = '../../styles/projectsPages/projectsPages.css';
+    $cssNavbar = '../../styles/navbar/navbar.min.css';
+    $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
     $fonts = '../../fonts/MyFontsWebfontsKit.css';
+    $slider = '../../styles/slider/slider.min.css';
     include '../../head.php';
 ?>
   <body>
@@ -12,53 +22,55 @@
     $hrefAbout = '../about/';
     $hrefPublications = '../publications/';
     $hrefContact = '../contact/';
-    include '../../header.php';
+    include '../../navbar.php';
+    include '../../navbarMobile.php';
   ?>
   <main>
     <div class="container">
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img src="../../images/projets/elise_djo_bourgeois/kim-haddou-florent-dufourcq-elise-djo-bourgeois-emile-kirsch-1.jpg" style="width:100%">
+        <div class="carousel">
+            <div class="previous">
+                <div class ="left-arrow"></div>
+            </div>
+            <div class="carousel--imgs">
+                <div class="imgs--all">
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-1.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-4.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-5.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="next">
+                <div class ="right-arrow"></div>
+            </div>
         </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/elise_djo_bourgeois/kim-haddou-florent-dufourcq-elise-djo-bourgeois-emile-kirsch-2.jpg" style="width:100%">
+        <div class="container--pagination">
         </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/elise_djo_bourgeois/kim-haddou-florent-dufourcq-elise-djo-bourgeois-emile-kirsch-3.jpg" style="width:100%">
+        <div class="description">
+          <h2 class="descriptionTitle"><?= $nameOfTheProject ?></h2>
+          <div class="descriptionContent">
+            <p class="descriptionContentDate"><?= $dateOfTheProject ?></p>
+            <p class="descriptionContentText"><?= $textOfTheProject ?></p>
+            <p class="descriptionContentLocalisation"><?= $localisationOfTheProject ?></p>
+            <p class="descriptionContentCredits"> Photos: <?= $creditsOfTheProject ?></p>
+          </div>
         </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/elise_djo_bourgeois/kim-haddou-florent-dufourcq-elise-djo-bourgeois-emile-kirsch-4.jpg" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/elise_djo_bourgeois/kim-haddou-florent-dufourcq-elise-djo-bourgeois-emile-kirsch-6.jpg" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-          <img src="../../images/projets/elise_djo_bourgeois/kim-haddou-florent-dufourcq-elise-djo-bourgeois-emile-kirsch-7.jpg" style="width:100%">
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <div class="dotDiv">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
-      </div>
-      <div class="description">
-        <h2>élise djo-bourgeois</h2>
-        <div class="line"></div>
-        <div class="text">
-          <p class="texttitle">2019</p>
-          <p class="texttxt">Scénographie de l’exposition consacrée à la designer textile Elise Djo-Bourgeois.</p>
-          <p class="texttxt">Villa Noailles, Hyères.</p>
-          <p class="credits"> Photos: Emile Kirsch.
-        </div>
-      </div>
     </div>
   </main>
   <script type="text/javascript" src="../../scripts/burger.js"></script>
-  <script type="text/javascript" src="../../scripts/slider.js"></script>
+  <script src="../../scripts/slider.js"></script>
   </body>
 </html>

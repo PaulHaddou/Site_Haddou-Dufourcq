@@ -1,14 +1,14 @@
 <?php
-    $pathToImages = 'grotto';
-    $nameOfTheProject = 'grotto';
-    $dateOfTheProject = '2018';
-    $textOfTheProject = 'Grotto est un petit salon de lecture imaginé pour le concours Design Parade Toulon organisé par la Villa Noailles. Un endroit à part, où lire, écrire réfléchir à l\'abri du tumulte du monde extérieur. Une bibliothèque faite de niches creusées à même le mur fait écho à une architecture méditerranéenne séculaire.';
-    $localisationOfTheProject = 'Design Parade Toulon, France.';
-    $creditsOfTheProject = 'Luc Bertrand, Kim Haddou.';
+    $pathToImages = 'hyeres34';
+    $nameOfTheProject = 'hyères 34';
+    $dateOfTheProject = '2019';
+    $textOfTheProject = 'Scénographie pour la soirée de lancement du 34e Festival International de Mode, de Photographie et d’Accessoire de mode d’Hyères organisé par la Villa Noailles.';
+    $localisationOfTheProject = 'Ministère de la Culture, Paris.';
+    $creditsOfTheProject = 'Luc Bertrand.';
 
 
     $title = $nameOfTheProject;
-    $metaname = 'Design Parade, Toulon 2019.';
+    $metaname = $textOfTheProject;
     $css = '../../styles/projectsPages/projectsPages.css';
     $cssNavbar = '../../styles/navbar/navbar.min.css';
     $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
@@ -28,7 +28,7 @@
   <main>
     <div class="container">
         <div class="carousel">
-            <div class="previous">
+          <div class="previous">
                 <div class ="left-arrow"></div>
             </div>
             <div class="carousel--imgs">
@@ -45,12 +45,6 @@
                     <div>
                         <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-4.jpg" alt="">
                     </div>
-                    <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-5.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-6.jpg" alt="">
-                    </div>
                 </div>
             </div>
             <div class="next">
@@ -64,8 +58,6 @@
           <div class="descriptionContent">
             <p class="descriptionContentDate"><?= $dateOfTheProject ?></p>
             <p class="descriptionContentText"><?= $textOfTheProject ?></p>
-            <p class="descriptionContentText">Projet récompensé par le Grand Prix Van Cleef & Arpels, Design Parade Toulon 2018.</p>
-            <p class="descriptionContentText">Avec le soutien précieux de: Galerie Desprez Breheret, Mosaic del Sur, Céramiques du Beaujolais, Pierre Frey, Atelier Lorenzi, Wilo & Grove, Debeaulieu, Poterie Ravel, Make’s concept.</p>
             <p class="descriptionContentLocalisation"><?= $localisationOfTheProject ?></p>
             <p class="descriptionContentCredits"> Photos: <?= $creditsOfTheProject ?></p>
           </div>

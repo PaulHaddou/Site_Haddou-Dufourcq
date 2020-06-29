@@ -1,20 +1,23 @@
-.topnav a:nth-child(3)
-{
+html body .navbar .navbarContent .navbarContentSections .navbarContentSectionsLinks div:nth-child(3) {
   font-style: italic;
-  text-decoration:underline;
+  text-decoration: underline;
 }
-
+body
+{
+  margin: 0;
+  margin-bottom: 10vh;
+}
 main{
   display: flex;
   width: 100%;
   align-items: center;
+  justify-content: center;
 }
 
 .container
 {
-  width: 100%;
+  width: 80%;
   margin-top: 110px;
-  margin-left: 182px;
 }
 .article a{
   text-decoration: none;
@@ -24,6 +27,12 @@ main{
 }
 
 
-
+@media all and (max-width: 910px)
+{
+ .container
+ {
+   width: 90%;
+ }
+}
 
 

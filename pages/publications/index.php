@@ -2,8 +2,10 @@
     $title = 'Publications';
     $metaname = '';
     $css = 'styles/publications.css';
-    $cssHeader = '../../styles/header.css';
+    $cssNavbar = '../../styles/navbar/navbar.min.css';
+    $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
     $fonts = '../../fonts/MyFontsWebfontsKit.css';
+    $slider = '../../styles/slider/slider.min.css';
     include '../../head.php';
 ?>
   <body>
@@ -12,11 +14,16 @@
     $hrefAbout = '../about/';
     $hrefPublications = '../publications/';
     $hrefContact = '../contact/';
-    include '../../header.php';
+    include '../../navbar.php';
+    include '../../navbarMobile.php';
   ?>
   <main>
     <div class="container">
         <div class="article">
+          <p><a href="../../pdf/AD100-Mai-2020.pdf"> AD100 - <i>mai 2020</i> </a></p>
+          <p><a href="../../pdf/ELLE-DECORATION-Mai-2020.pdf"> ELLE DECORATION - <i>mai 2020</i> </a></p>
+          <p><a href="../../pdf/ELLE-DECORATION-Sweden-Mai-2020.pdf"> ELLE DECORATION Sweden - <i>mai 2020</i> </a></p>
+          <p><a href="../../pdf/95_homestyle.pdf"> HOMESTYLE New Zealand - <i>mars 2020</i> </a></p>
           <p><a href="../../pdf/INTERIOR+DESIGN-Russia-février-2020.pdf"> INTERIOR + DESIGN Russia - <i>février 2020</i> </a></p>
           <p><a href="https://www.marieclaire.fr/maison/pourquoi-les-murs-a-la-chaux-sont-partout,1339330.asp"> MARIE-CLAIRE MAISON - <i>février 2020</i> </a></p>
           <p><a href="https://www.domino.com/content/recessed-wall-shelves/"> DOMINO - <i>décembre 2019</i> </a></p>

@@ -5,3 +5,5 @@
 
 # RedirectPermanent /about/about.html https://haddou-dufourcq.com/pages/about/
 # RedirectPermanent /contact/contact.html https://haddou-dufourcq.com/pages/contact/
+
+#ErrorDocument 404 /pages/404/404.php

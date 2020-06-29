@@ -1,9 +1,11 @@
 <?php
     $title = 'Contact';
     $metaname = '';
-    $css = 'styles/contact.css';
-    $cssHeader = '../../styles/header.css';
+    $css = '../../styles/contact/contact.min.css';
+    $cssNavbar = '../../styles/navbar/navbar.min.css';
+    $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
     $fonts = '../../fonts/MyFontsWebfontsKit.css';
+    $slider = '../../styles/slider/slider.min.css';
     include '../../head.php';
 ?>
   <body>
@@ -12,19 +14,19 @@
     $hrefAbout = '../about/';
     $hrefPublications = '../publications/';
     $hrefContact = '../contact/';
-    include '../../header.php';
+    include '../../navbar.php';
+    include '../../navbarMobile.php';
   ?>
     <main>
       <div class="container">
-        <img src="../../images/contact/kim-haddou-florent-dufourcq-clouds.jpg" alt="fond contact" class="background">
-        <div class="text">
-          <div class="contact">
-            <p>contact us</p>
-            <a href="mailto:studio@haddou-dufourcq.com">studio@haddou-dufourcq.com</a>
+        <div class="content">
+          <div class="contentContact">
+            <p class="contentContactTitle">contact us</p>
+            <a class="contentContactMail" href="mailto:studio@haddou-dufourcq.com">studio@haddou-dufourcq.com</a>
           </div>
-          <div class="follow">
-            <p>follow us</p>
-            <a href="https://www.instagram.com/studio_haddou_dufourcq/" class="insta">instagram</a>
+          <div class="contentInstagram">
+            <p class="contentInstagramTitle">follow us</p>
+            <a class="contentInstagramLink" href="https://www.instagram.com/studio_haddou_dufourcq/" class="insta">instagram</a>
           </div>
         </div>
       </div>

@@ -1,14 +1,14 @@
-<?php
-    $pathToImages = 'grotto';
-    $nameOfTheProject = 'grotto';
-    $dateOfTheProject = '2018';
-    $textOfTheProject = 'Grotto est un petit salon de lecture imaginé pour le concours Design Parade Toulon organisé par la Villa Noailles. Un endroit à part, où lire, écrire réfléchir à l\'abri du tumulte du monde extérieur. Une bibliothèque faite de niches creusées à même le mur fait écho à une architecture méditerranéenne séculaire.';
-    $localisationOfTheProject = 'Design Parade Toulon, France.';
-    $creditsOfTheProject = 'Luc Bertrand, Kim Haddou.';
+<?php    
+    $pathToImages = 'federation';
+    $nameOfTheProject = 'fédération de la haute couture';
+    $dateOfTheProject = '2020';
+    $textOfTheProject = 'Scénographie du Showroom Sphère organisé par la Fédération de la Haute Couture et de la Mode.';
+    $localisationOfTheProject = 'Palais de Tokyo, Paris.';
+    $creditsOfTheProject = 'Valentin Le Cron.';
 
 
-    $title = $nameOfTheProject;
-    $metaname = 'Design Parade, Toulon 2019.';
+    $title = 'fédération de la haute couture';
+    $metaname = $textOfTheProject;
     $css = '../../styles/projectsPages/projectsPages.css';
     $cssNavbar = '../../styles/navbar/navbar.min.css';
     $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
@@ -51,6 +51,9 @@
                     <div>
                         <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-6.jpg" alt="">
                     </div>
+                    <div>
+                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-7.jpg" alt="">
+                    </div>
                 </div>
             </div>
             <div class="next">
@@ -64,8 +67,7 @@
           <div class="descriptionContent">
             <p class="descriptionContentDate"><?= $dateOfTheProject ?></p>
             <p class="descriptionContentText"><?= $textOfTheProject ?></p>
-            <p class="descriptionContentText">Projet récompensé par le Grand Prix Van Cleef & Arpels, Design Parade Toulon 2018.</p>
-            <p class="descriptionContentText">Avec le soutien précieux de: Galerie Desprez Breheret, Mosaic del Sur, Céramiques du Beaujolais, Pierre Frey, Atelier Lorenzi, Wilo & Grove, Debeaulieu, Poterie Ravel, Make’s concept.</p>
+            <p class="descriptionContentText">Compositions florales: Debeaulieu</p>
             <p class="descriptionContentLocalisation"><?= $localisationOfTheProject ?></p>
             <p class="descriptionContentCredits"> Photos: <?= $creditsOfTheProject ?></p>
           </div>

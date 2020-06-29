@@ -1,5 +1,10 @@
 :root
 {
+    --Primary-white : #fff;
+    --Primary-black : #080808;
+    --Primary-black66 : rgba(8, 8, 8, 0.4);;
+
+    --Font-Family-Main : Magneta-Thin;
     --Navbar-Sections-Font-Size : 1.2rem;
     --Navbar-Logo-Font-Size : 1.3rem;
 }
@@ -7,6 +12,7 @@
 
 body
 {
+    font-family: var(--Font-Family-Main);
     .navbar
     {
         width: 100%;
@@ -17,7 +23,7 @@ body
         z-index: 100;
         .navbarContent
         {
-            width: 1166px;
+            width: 80%;
             display: flex;
             justify-content: space-between;
             .navbarContentLogo
@@ -53,7 +59,6 @@ body
                             display: flex;
                             align-items: center;
                             font-size: var(--Navbar-Sections-Font-Size);
-                            font-weight: bold;
                             color: var(--Primary-black);
                             text-decoration: none; 
                         }
@@ -75,7 +80,7 @@ body
 
 
 
-@media screen and (max-width: 1100px)
+@media screen and (max-width: 911px)
 {
     body 
     {
