@@ -2,19 +2,19 @@
 
     if (strpos($_SERVER['REQUEST_URI'], "EN") !== false)
     {
-        include '../../includes/textsEN.php';
+        include '../../../includes/textsEN.php';
     } else {
-        include '../../includes/textsFR.php';
+        include '../../../includes/textsFR.php';
     }
 
-    $title = $aboutTitle;
+    $title = $aboutTitle; 
     $metaname = $aboutMetaName;
-    $css = '../../styles/about/about.min.css';
-    $cssNavbar = '../../styles/navbar/navbar.min.css';
-    $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
-    $fonts = '../../fonts/MyFontsWebfontsKit.css';
-    $slider = '../../styles/slider/slider.min.css';
-    include '../../head.php';
+    $css = '../../../styles/about/about.min.css';
+    $cssNavbar = '../../../styles/navbar/navbar.min.css';
+    $cssNavbarMobile = '../../../styles/navbarMobile/navbarMobile.min.css';
+    $fonts = '../../../fonts/MyFontsWebfontsKit.css';
+    $slider = '../../../styles/slider/slider.min.css';
+    include '../../../head.php';
 ?>
   <body>
   <?php
@@ -23,8 +23,8 @@
     $hrefPublications = '../publications/';
     $hrefContact = '../contact/';
 
-    include '../../navbar.php';
-    include '../../navbarMobile.php';
+    include '../../../navbar.php';
+    include '../../../navbarMobile.php';
   ?>
     <main>
       <div class="container">
@@ -45,9 +45,9 @@
             <?= $aboutCredits ?>
           </p>
         </div>
-        <img class="aboutImg" class="image" src="../../images/a_propos/studio-haddou-dufourcq-kim-haddou-florent-dufourcq.jpg" alt="<?= $aboutPictureAlt ?>">
+        <img class="aboutImg" class="image" src="../../../images/a_propos/studio-haddou-dufourcq-kim-haddou-florent-dufourcq.jpg" alt="<?= $aboutPictureAlt ?>">
       </div>
     </main>
-      <script type="text/javascript" src="../../scripts/burger.js"></script>
+      <script type="text/javascript" src="../../../scripts/burger.js"></script>
   </body>
 </html>

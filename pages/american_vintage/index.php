@@ -1,14 +1,13 @@
 <?php
-    $pathToImages = 'american_vintage';
-    $nameOfTheProject = 'american vintage';
-    $dateOfTheProject = '2018';
-    $textOfTheProject = 'Scénographie pour l’exposition « coalescence » de la photographe Sarah Mei Herman.';
-    $localisationOfTheProject = 'Boutique American Vintage rue Vieille du Temple, Paris.';
-    $creditsOfTheProject = 'Luc Bertrand.';
+    if (strpos($_SERVER['REQUEST_URI'], "EN") !== false)
+    {
+        include '../../includes/textsEN.php';
+    } else {
+        include '../../includes/textsFR.php';
+    }
 
-
-    $title = 'american vintage';
-    $metaname = $textOfTheProject;
+    $title = $nameOfTheProjectAmericanVintage;
+    $metaname = $textOfTheProjectAmericanVintage1;
     $css = '../../styles/projectsPages/projectsPages.css';
     $cssNavbar = '../../styles/navbar/navbar.min.css';
     $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
@@ -18,10 +17,11 @@
 ?>
   <body>
   <?php
-    $hrefProjects = '../../index.php';
+    $hrefProjects = '../../';
     $hrefAbout = '../about/';
     $hrefPublications = '../publications/';
     $hrefContact = '../contact/';
+
     include '../../navbar.php';
     include '../../navbarMobile.php';
   ?>
@@ -34,22 +34,22 @@
             <div class="carousel--imgs">
                 <div class="imgs--all">
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-1.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesAmericanVintage ?>/studio-haddou-dufourcq-<?= $pathToImagesAmericanVintage ?>-1.jpg" alt="<?= $altImageAmericanVintage ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-2.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesAmericanVintage ?>/studio-haddou-dufourcq-<?= $pathToImagesAmericanVintage ?>-2.jpg" alt="<?= $altImageAmericanVintage ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-3.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesAmericanVintage ?>/studio-haddou-dufourcq-<?= $pathToImagesAmericanVintage ?>-3.jpg" alt="<?= $altImageAmericanVintage ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-4.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesAmericanVintage ?>/studio-haddou-dufourcq-<?= $pathToImagesAmericanVintage ?>-4.jpg" alt="<?= $altImageAmericanVintage ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-5.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesAmericanVintage ?>/studio-haddou-dufourcq-<?= $pathToImagesAmericanVintage ?>-5.jpg" alt="<?= $altImageAmericanVintage ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-6.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesAmericanVintage ?>/studio-haddou-dufourcq-<?= $pathToImagesAmericanVintage ?>-6.jpg" alt="<?= $altImageAmericanVintage ?>">
                     </div>
                 </div>
             </div>
@@ -60,12 +60,12 @@
         <div class="container--pagination">
         </div>
         <div class="description">
-          <h2 class="descriptionTitle"><?= $nameOfTheProject ?></h2>
+          <h2 class="descriptionTitle"><?= $nameOfTheProjectAmericanVintage ?></h2>
           <div class="descriptionContent">
-            <p class="descriptionContentDate"><?= $dateOfTheProject ?></p>
-            <p class="descriptionContentText"><?= $textOfTheProject ?></p>
-            <p class="descriptionContentLocalisation"><?= $localisationOfTheProject ?></p>
-            <p class="descriptionContentCredits"> Photos: <?= $creditsOfTheProject ?></p>
+            <p class="descriptionContentDate"><?= $dateOfTheProjectAmericanVintage ?></p>
+            <p class="descriptionContentText"><?= $textOfTheProjectAmericanVintage1 ?></p>
+            <p class="descriptionContentLocalisation"><?= $localisationOfTheProjectAmericanVintage ?></p>
+            <p class="descriptionContentCredits"><?= $creditsOfTheProjectAmericanVintage ?></p>
           </div>
         </div>
     </div>

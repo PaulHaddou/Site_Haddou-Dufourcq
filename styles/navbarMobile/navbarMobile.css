@@ -85,6 +85,33 @@ body .navbarMobile .navbarMobile--links a:hover {
   text-decoration: underline;
 }
 
+body .navbarMobile .navbarMobile--links .languageChoosen {
+  text-decoration: underline;
+}
+
+body .navbarMobile .navbarMobileLanguage {
+  display: flex;
+}
+
+body .navbarMobile .navbarMobileLanguage p {
+  width: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+body .navbarMobile .navbarMobileLanguage .languageNotChoosen {
+  opacity: 0.5;
+  transition: all .7s ease;
+}
+
+body .navbarMobile .navbarMobileLanguage .languageNotChoosen:hover {
+  opacity: 1;
+  transition: all .7s ease;
+}
+
 @media all and (max-width: 910px) {
   body .navbarMobile {
     display: flex;

@@ -69,6 +69,28 @@ body .navbar .navbarContent .navbarContentSections .navbarContentSectionsLinks d
   text-decoration: underline;
 }
 
+body .navbar .navbarContent .navbarContentSections .navbarContentSectionsLinks div .languageChoosen {
+  text-decoration: underline;
+}
+
+body .navbar .navbarContent .navbarContentLanguage p {
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+body .navbar .navbarContent .navbarContentLanguage .languageNotChoosen {
+  opacity: 0.5;
+  transition: all .7s ease;
+}
+
+body .navbar .navbarContent .navbarContentLanguage .languageNotChoosen:hover {
+  opacity: 1;
+  transition: all .7s ease;
+}
+
 @media screen and (max-width: 911px) {
   body .navbar {
     display: none;

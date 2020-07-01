@@ -2,19 +2,19 @@
 
     if (strpos($_SERVER['REQUEST_URI'], "EN") !== false)
     {
-        include '../../includes/textsEN.php';
+        include '../../../includes/textsEN.php';
     } else {
-        include '../../includes/textsFR.php';
+        include '../../../includes/textsFR.php';
     }
 
     $title = $nameOfTheProjectHyeres34;
     $metaname = $textOfTheProjectHyeres341;
-    $css = '../../styles/projectsPages/projectsPages.css';
-    $cssNavbar = '../../styles/navbar/navbar.min.css';
-    $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
-    $fonts = '../../fonts/MyFontsWebfontsKit.css';
-    $slider = '../../styles/slider/slider.min.css';
-    include '../../head.php';
+    $css = '../../../styles/projectsPages/projectsPages.css';
+    $cssNavbar = '../../../styles/navbar/navbar.min.css';
+    $cssNavbarMobile = '../../../styles/navbarMobile/navbarMobile.min.css';
+    $fonts = '../../../fonts/MyFontsWebfontsKit.css';
+    $slider = '../../../styles/slider/slider.min.css';
+    include '../../../head.php';
 ?>
   <body>
   <?php
@@ -23,8 +23,8 @@
     $hrefPublications = '../publications/';
     $hrefContact = '../contact/';
 
-    include '../../navbar.php';
-    include '../../navbarMobile.php';
+    include '../../../navbar.php';
+    include '../../../navbarMobile.php';
   ?>
   <main>
     <div class="container">
@@ -35,16 +35,16 @@
             <div class="carousel--imgs">
                 <div class="imgs--all">
                     <div>
-                        <img src="../../images/projets/<?= $pathToImagesHyeres34 ?>/studio-haddou-dufourcq-<?= $pathToImagesHyeres34 ?>-1.jpg" alt="<?= $imageAltHyeres34 ?>">
+                        <img src="../../../images/projets/<?= $pathToImagesHyeres34 ?>/studio-haddou-dufourcq-<?= $pathToImagesHyeres34 ?>-1.jpg" alt="<?= $imageAltHyeres34 ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImagesHyeres34 ?>/studio-haddou-dufourcq-<?= $pathToImagesHyeres34 ?>-2.jpg" alt="<?= $imageAltHyeres34 ?>">
+                        <img src="../../../images/projets/<?= $pathToImagesHyeres34 ?>/studio-haddou-dufourcq-<?= $pathToImagesHyeres34 ?>-2.jpg" alt="<?= $imageAltHyeres34 ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImagesHyeres34 ?>/studio-haddou-dufourcq-<?= $pathToImagesHyeres34 ?>-3.jpg" alt="<?= $imageAltHyeres34 ?>">
+                        <img src="../../../images/projets/<?= $pathToImagesHyeres34 ?>/studio-haddou-dufourcq-<?= $pathToImagesHyeres34 ?>-3.jpg" alt="<?= $imageAltHyeres34 ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImagesHyeres34 ?>/studio-haddou-dufourcq-<?= $pathToImagesHyeres34 ?>-4.jpg" alt="<?= $imageAltHyeres34 ?>">
+                        <img src="../../../images/projets/<?= $pathToImagesHyeres34 ?>/studio-haddou-dufourcq-<?= $pathToImagesHyeres34 ?>-4.jpg" alt="<?= $imageAltHyeres34 ?>">
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
         </div>
     </div>
   </main>
-  <script type="text/javascript" src="../../scripts/burger.js"></script>
-  <script src="../../scripts/slider.js"></script>
+  <script type="text/javascript" src="../../../scripts/burger.js"></script>
+  <script src="../../../scripts/slider.js"></script>
   </body>
 </html>

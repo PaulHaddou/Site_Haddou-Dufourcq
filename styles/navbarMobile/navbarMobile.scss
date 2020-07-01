@@ -96,6 +96,34 @@ body
             {
                 text-decoration: underline;
             }
+            .languageChoosen
+            {
+                text-decoration: underline;
+            }
+        }
+        .navbarMobileLanguage
+        {
+            display: flex;
+            p 
+            {
+                width: 20px;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+            }
+            .languageNotChoosen
+            {
+                opacity: 0.5;
+                transition: all .7s ease;
+            }
+            .languageNotChoosen:hover      
+            {
+              opacity: 1;
+              transition: all .7s ease;
+            }
+
         }
     }
 }

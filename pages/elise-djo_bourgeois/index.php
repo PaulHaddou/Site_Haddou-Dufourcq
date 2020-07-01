@@ -1,14 +1,14 @@
 <?php
-    $pathToImages = 'elise_djo_bourgeois';
-    $nameOfTheProject = 'élise djo bourgeois';
-    $dateOfTheProject = '2018';
-    $textOfTheProject = 'Scénographie de l’exposition consacrée à la designer textile Elise Djo-Bourgeois.';
-    $localisationOfTheProject = 'Villa Noailles, Hyères.';
-    $creditsOfTheProject = 'Emile Kirsch.';
 
+    if (strpos($_SERVER['REQUEST_URI'], "EN") !== false)
+    {
+        include '../../includes/textsEN.php';
+    } else {
+        include '../../includes/textsFR.php';
+    }
 
-    $title = 'élise djo-bourgeois';
-    $metaname = $textOfTheProject;
+    $title = $nameOfTheProjectEliseDjoBourgeois;
+    $metaname = $textOfTheProjectEliseDjoBourgeois1;
     $css = '../../styles/projectsPages/projectsPages.css';
     $cssNavbar = '../../styles/navbar/navbar.min.css';
     $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
@@ -18,10 +18,11 @@
 ?>
   <body>
   <?php
-    $hrefProjects = '../../index.php';
+    $hrefProjects = '../../';
     $hrefAbout = '../about/';
     $hrefPublications = '../publications/';
     $hrefContact = '../contact/';
+
     include '../../navbar.php';
     include '../../navbarMobile.php';
   ?>
@@ -34,22 +35,22 @@
             <div class="carousel--imgs">
                 <div class="imgs--all">
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-1.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesEliseDjoBourgeois ?>/studio-haddou-dufourcq-<?= $pathToImagesEliseDjoBourgeois ?>-1.jpg" alt="<?= $imageAltEliseDjoBourgeois ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-2.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesEliseDjoBourgeois ?>/studio-haddou-dufourcq-<?= $pathToImagesEliseDjoBourgeois ?>-2.jpg" alt="<?= $imageAltEliseDjoBourgeois ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-3.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesEliseDjoBourgeois ?>/studio-haddou-dufourcq-<?= $pathToImagesEliseDjoBourgeois ?>-3.jpg" alt="<?= $imageAltEliseDjoBourgeois ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-4.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesEliseDjoBourgeois ?>/studio-haddou-dufourcq-<?= $pathToImagesEliseDjoBourgeois ?>-4.jpg" alt="<?= $imageAltEliseDjoBourgeois ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-5.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesEliseDjoBourgeois ?>/studio-haddou-dufourcq-<?= $pathToImagesEliseDjoBourgeois ?>-5.jpg" alt="<?= $imageAltEliseDjoBourgeois ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-6.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesEliseDjoBourgeois ?>/studio-haddou-dufourcq-<?= $pathToImagesEliseDjoBourgeois ?>-6.jpg" alt="<?= $imageAltEliseDjoBourgeois ?>">
                     </div>
                 </div>
             </div>
@@ -60,12 +61,12 @@
         <div class="container--pagination">
         </div>
         <div class="description">
-          <h2 class="descriptionTitle"><?= $nameOfTheProject ?></h2>
+          <h2 class="descriptionTitle"><?= $nameOfTheProjectEliseDjoBourgeois ?></h2>
           <div class="descriptionContent">
-            <p class="descriptionContentDate"><?= $dateOfTheProject ?></p>
-            <p class="descriptionContentText"><?= $textOfTheProject ?></p>
-            <p class="descriptionContentLocalisation"><?= $localisationOfTheProject ?></p>
-            <p class="descriptionContentCredits"> Photos: <?= $creditsOfTheProject ?></p>
+            <p class="descriptionContentDate"><?= $dateOfTheProjectEliseDjoBourgeois ?></p>
+            <p class="descriptionContentText"><?= $textOfTheProjectEliseDjoBourgeois1 ?></p>
+            <p class="descriptionContentLocalisation"><?= $localisationOfTheProjectEliseDjoBourgeois ?></p>
+            <p class="descriptionContentCredits"><?= $creditsOfTheProjectEliseDjoBourgeois ?></p>
           </div>
         </div>
     </div>

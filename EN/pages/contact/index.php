@@ -2,29 +2,29 @@
 
     if (strpos($_SERVER['REQUEST_URI'], "EN") !== false)
     {
-        include '../../includes/textsEN.php';
+        include '../../../includes/textsEN.php';
     } else {
-        include '../../includes/textsFR.php';
+        include '../../../includes/textsFR.php';
     }
 
     $title = $contactTitle;
     $metaname = $contactMetaName;
-    $css = '../../styles/contact/contact.min.css';
-    $cssNavbar = '../../styles/navbar/navbar.min.css';
-    $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
-    $fonts = '../../fonts/MyFontsWebfontsKit.css';
-    $slider = '../../styles/slider/slider.min.css';
-    include '../../head.php';
+    $css = '../../../styles/contact/contact.min.css';
+    $cssNavbar = '../../../styles/navbar/navbar.min.css';
+    $cssNavbarMobile = '../../../styles/navbarMobile/navbarMobile.min.css';
+    $fonts = '../../../fonts/MyFontsWebfontsKit.css';
+    $slider = '../../../styles/slider/slider.min.css';
+    include '../../../head.php';
 ?>
   <body>
   <?php
-    $hrefProjects = '../../index.php';
+    $hrefProjects = '../../';
     $hrefAbout = '../about/';
     $hrefPublications = '../publications/';
     $hrefContact = '../contact/';
 
-    include '../../navbar.php';
-    include '../../navbarMobile.php';
+    include '../../../navbar.php';
+    include '../../../navbarMobile.php';
   ?>
     <main>
       <div class="container">
@@ -40,6 +40,6 @@
         </div>
       </div>
     </main>
-    <script type="text/javascript" src="../../scripts/burger.js"></script>
+    <script type="text/javascript" src="../../../scripts/burger.js"></script>
   </body>
 </html>

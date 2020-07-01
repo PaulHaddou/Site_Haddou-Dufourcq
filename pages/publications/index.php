@@ -1,6 +1,14 @@
 <?php
-    $title = 'Publications';
-    $metaname = '';
+
+    if (strpos($_SERVER['REQUEST_URI'], "EN") !== false)
+    {
+        include '../../includes/textsEN.php';
+    } else {
+        include '../../includes/textsFR.php';
+    }
+
+    $title = $publicationsTitle;
+    $metaname = $publicationsMetaName;
     $css = 'styles/publications.css';
     $cssNavbar = '../../styles/navbar/navbar.min.css';
     $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
@@ -14,6 +22,7 @@
     $hrefAbout = '../about/';
     $hrefPublications = '../publications/';
     $hrefContact = '../contact/';
+
     include '../../navbar.php';
     include '../../navbarMobile.php';
   ?>

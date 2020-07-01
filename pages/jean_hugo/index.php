@@ -1,14 +1,14 @@
 <?php
-    $pathToImages = 'jean_hugo';
-    $nameOfTheProject = 'jean hugo';
-    $dateOfTheProject = '2019';
-    $textOfTheProject = 'Scénographie de l’exposition consacrée à l’artiste Jean Hugo.';
-    $localisationOfTheProject = 'Villa Noailles, Hyères.';
-    $creditsOfTheProject = 'Julie Liger, Luc Bertrand.';
 
+    if (strpos($_SERVER['REQUEST_URI'], "EN") !== false)
+    {
+        include '../../includes/textsEN.php';
+    } else {
+        include '../../includes/textsFR.php';
+    }
 
-    $title = $nameOfTheProject;
-    $metaname = $textOfTheProject;
+    $title = $nameOfTheProjectJeanHugo;
+    $metaname = $textOfTheProjectJeanHugo1;
     $css = '../../styles/projectsPages/projectsPages.css';
     $cssNavbar = '../../styles/navbar/navbar.min.css';
     $cssNavbarMobile = '../../styles/navbarMobile/navbarMobile.min.css';
@@ -18,10 +18,11 @@
 ?>
   <body>
   <?php
-    $hrefProjects = '../../index.php';
+    $hrefProjects = '../../';
     $hrefAbout = '../about/';
     $hrefPublications = '../publications/';
     $hrefContact = '../contact/';
+
     include '../../navbar.php';
     include '../../navbarMobile.php';
   ?>
@@ -34,34 +35,34 @@
             <div class="carousel--imgs">
                 <div class="imgs--all">
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-1.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesJeanHugo ?>/studio-haddou-dufourcq-<?= $pathToImagesJeanHugo ?>-1.jpg" alt="<?= $imageAltJeanHugo ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-2.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesJeanHugo ?>/studio-haddou-dufourcq-<?= $pathToImagesJeanHugo ?>-2.jpg" alt="<?= $imageAltJeanHugo ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-3.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesJeanHugo ?>/studio-haddou-dufourcq-<?= $pathToImagesJeanHugo ?>-3.jpg" alt="<?= $imageAltJeanHugo ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-4.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesJeanHugo ?>/studio-haddou-dufourcq-<?= $pathToImagesJeanHugo ?>-4.jpg" alt="<?= $imageAltJeanHugo ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-5.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesJeanHugo ?>/studio-haddou-dufourcq-<?= $pathToImagesJeanHugo ?>-5.jpg" alt="<?= $imageAltJeanHugo ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-6.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesJeanHugo ?>/studio-haddou-dufourcq-<?= $pathToImagesJeanHugo ?>-6.jpg" alt="<?= $imageAltJeanHugo ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-7.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesJeanHugo ?>/studio-haddou-dufourcq-<?= $pathToImagesJeanHugo ?>-7.jpg" alt="<?= $imageAltJeanHugo ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-8.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesJeanHugo ?>/studio-haddou-dufourcq-<?= $pathToImagesJeanHugo ?>-8.jpg" alt="<?= $imageAltJeanHugo ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-9.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesJeanHugo ?>/studio-haddou-dufourcq-<?= $pathToImagesJeanHugo ?>-9.jpg" alt="<?= $imageAltJeanHugo ?>">
                     </div>
                     <div>
-                        <img src="../../images/projets/<?= $pathToImages ?>/studio-haddou-dufourcq-<?= $pathToImages ?>-10.jpg" alt="">
+                        <img src="../../images/projets/<?= $pathToImagesJeanHugo ?>/studio-haddou-dufourcq-<?= $pathToImagesJeanHugo ?>-10.jpg" alt="<?= $imageAltJeanHugo ?>">
                     </div>
                 </div>
             </div>
@@ -72,12 +73,12 @@
         <div class="container--pagination">
         </div>
         <div class="description">
-          <h2 class="descriptionTitle"><?= $nameOfTheProject ?></h2>
+          <h2 class="descriptionTitle"><?= $nameOfTheProjectJeanHugo ?></h2>
           <div class="descriptionContent">
-            <p class="descriptionContentDate"><?= $dateOfTheProject ?></p>
-            <p class="descriptionContentText"><?= $textOfTheProject ?></p>
-            <p class="descriptionContentLocalisation"><?= $localisationOfTheProject ?></p>
-            <p class="descriptionContentCredits"> Photos: <?= $creditsOfTheProject ?></p>
+            <p class="descriptionContentDate"><?= $dateOfTheProjectJeanHugo ?></p>
+            <p class="descriptionContentText"><?= $textOfTheProjectJeanHugo1 ?></p>
+            <p class="descriptionContentLocalisation"><?= $localisationOfTheProjectJeanHugo ?></p>
+            <p class="descriptionContentCredits"><?= $creditsOfTheProjectJeanHugo ?></p>
           </div>
         </div>
     </div>

@@ -6,16 +6,19 @@
         <div class="navbarContentSections">
             <div class="navbarContentSectionsLinks">
                 <div>
-                    <a href="<?= $hrefProjects ?>">projets</a>
+                    <a href="<?= $hrefProjects ?>"><?= $projects ?></a>
                 </div>
                 <div>
-                    <a href="<?= $hrefAbout ?>">à propos</a>
+                    <a href="<?= $hrefAbout ?>"><?= $about ?></a>
                 </div>
                 <div>
-                    <a href="<?= $hrefPublications ?>">publications</a>
+                    <a href="<?= $hrefPublications ?>"><?= $publications ?></a>
                 </div>
                 <div>
-                    <a href="<?= $hrefContact ?>">contact</a>
+                    <a href="<?= $hrefContact ?>"><?= $contact ?></a>
+                </div> 
+                <div class="navbarContentLanguage">
+                    <?= $language ?>
                 </div> 
             </div>
         </div>
