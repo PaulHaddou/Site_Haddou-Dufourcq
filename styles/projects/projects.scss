@@ -121,16 +121,18 @@ html
 
                 .americanVintage
                 {
-                    display: flex;
                     width: var(--Cards-Width);
                     height: var(--Cards-Small-Height);
+                    display: flex;
                     flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
                     position: relative;
 
                     .americanVintageImage
                     {
-                        width: 100%;
-                        height: 100%;
+                        width: 116.4%;
                     }
 
                     .americanVintageTitles
@@ -171,16 +173,18 @@ html
 
                 .eliseDjoBourjoie
                 {
-                    display: flex;
                     width: var(--Cards-Width);
                     height: var(--Cards-Tall-Height);
+                    display: flex;
                     flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
                     position: relative;
 
                     .eliseDjoBourjoieImage
                     {
-                        width: 100%;
-                        height: 100%;
+                        width: 124.6%;
                     }
 
                     .eliseDjoBourjoieTitles

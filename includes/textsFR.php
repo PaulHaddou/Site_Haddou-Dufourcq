@@ -7,7 +7,10 @@ $publications = 'publications';
 $contact = 'contact';
 $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $url = parse_url($actual_link);
-$switchLanguage = str_replace('master/', 'master/EN/', $url['path']);
+$switchLanguage = str_replace(array("master/","publications"),array("master/EN/", "press"), $url['path']); 
+
+/// Remplacer "master/" par l'url de base du site lors de la mise en production // Replace "master/" by the base url of the site when starting production////
+
 $language = '<a href="'.$actual_link.'" class="languageChoosen">fr</a><p>/</p><a href="'.$switchLanguage.'"class="languageNotChoosen">en</a>';
 
 
@@ -21,7 +24,7 @@ $aboutParagraph2 = 'Sélectionnés en 2018 par la Villa Noailles pour le concour
 $aboutParagraph3 = 'Ils conçoivent des espaces publics et privés, scénographies d\'expositions, installations, ainsi que du mobilier.';
 $aboutParagraph4 = 'Le rêve et l\'esprit des lieux comme points de départ à chacun de leurs projets, leur travail laisse une grande place à l\'imaginaire et au pouvoir de l\'évocation.';
 
-$aboutCredits = 'Photo: Valentin Le Cron.';
+$aboutCredits = '© Valentin Le Cron.';
 
 $aboutPictureAlt = 'Photo de Kim Haddou et Florent Dufourcq';
 
@@ -31,14 +34,15 @@ $aboutPictureAlt = 'Photo de Kim Haddou et Florent Dufourcq';
 $contactTitle = 'contact';
 $contactMetaName = 'Différents moyens de contacter le studio Haddou / Dufourcq.';
 
-$contactMail = 'contactez-nous';
-$contactInsta = 'suivez-nous';
+$contactMail = 'nous contacter';
+$contactInsta = 'nous suivre';
 
 
 // Publications
 
 $publicationsTitle = 'publications';
 $publicationsMetaName = 'Retrouvez les différentes publications qui parlent des projets du Studio Haddou / Dufourcq.';
+
 
 $urlPath = "https:/";
 $pdfPath = "../pdf";
@@ -47,7 +51,7 @@ $publicationsArray = array (
 
     //array("link","name","date"),
 
-    array("$pdfPath/AD100-Mai-2020.pdf","AD100 -","mai 2020"),
+    array("$pdfPath/AD100-Mai-2020.pdf","AD 100 -","mai 2020"),
     array("$pdfPath/ELLE-DECORATION-Mai-2020.pdf","ELLE DECORATION -","mai 2020"),
     array("$pdfPath/ELLE-DECORATION-Sweden-Mai-2020.pdf","ELLE DECORATION Sweden -","mai 2020"),
     array("$pdfPath/95_homestyle.pdf","HOMESTYLE New Zealand -","mars 2020"),
@@ -67,7 +71,7 @@ $publicationsArray = array (
     array("$urlPath/www.ad-magazin.de/article/design-parade-toulon-haddou-dufourcq","AD Germany -","septembre 2018"),
     array("$pdfPath/IDEAT Design Parade Toulon Septembre 2018.pdf","IDEAT -","septembre 2018"),
     array("$pdfPath/ELLE-DECORATION-septembre-2018-kim-haddou-florent-dufourcq.pdf","ELLE DECORATION -","septembre 2018"),
-    array("$pdfPath/IDEAT Design Parade Toulon Juillet-Aout 2018.pdf","IDEAT -","juillet-août 2018"),
+    array("$pdfPath/IDEAT Design Parade Toulon Juillet-Aout 2018.pdf","IDEAT -","juillet 2018"),
     array("$pdfPath/grazia-Juillet-2018-kim-haddou-florent-dufourcq.pdf","GRAZIA -","juillet 2018"),
     array("$urlPath/www.admagazine.fr/design/actualite-design/diaporama/le-meilleur-de-la-design-parade-2018/51808#le-meilleur-de-la-design-parade-2018_image3","AD France -","juillet 2018"),
     array("$urlPath/mobile.lemonde.fr/m-design-deco/article/2018/07/05/design-parade-toulon-sur-les-traces-de-la-mysterieuse-mlle-oops_5326504_4497702.html","LE MONDE -","juillet 2018"),
@@ -99,9 +103,9 @@ $dateOfTheProjectGrotto = '2018';
 $textOfTheProjectGrotto1 = 'Grotto est un petit salon de lecture imaginé pour le concours Design Parade Toulon organisé par la Villa Noailles. Un endroit à part, où lire, écrire réfléchir à l\'abri du tumulte du monde extérieur. Une bibliothèque faite de niches creusées à même le mur fait écho à une architecture méditerranéenne séculaire.';
 $textOfTheProjectGrotto2 = 'Projet récompensé par le Grand Prix Van Cleef & Arpels, Design Parade Toulon 2018.';
 $textOfTheProjectGrotto3 = 'Avec le soutien précieux de: Galerie Desprez Breheret, Mosaic del Sur, Céramiques du Beaujolais, Pierre Frey, Atelier Lorenzi, Wilo & Grove, Debeaulieu, Poterie Ravel, Make’s concept.';
-$localisationOfTheProjectGrotto = 'Design Parade Toulon, France.';
+$localisationOfTheProjectGrotto = 'Toulon, France.';
 
-$creditsOfTheProjectGrotto = 'Photos: Luc Bertrand, Kim Haddou.';
+$creditsOfTheProjectGrotto = '© Luc Bertrand, Kim Haddou.';
 
 
 //// American Vintage
@@ -113,22 +117,24 @@ $nameOfTheProjectAmericanVintage = 'american vintage';
 $dateOfTheProjectAmericanVintage = '2018';
 
 $textOfTheProjectAmericanVintage1 = 'Scénographie pour l’exposition « coalescence » de la photographe Sarah Mei Herman.';
-$localisationOfTheProjectAmericanVintage = 'Boutique American Vintage rue Vieille du Temple, Paris.';
+$textOfTheProjectAmericanVintage2 = 'Boutique American Vintage rue Vieille du Temple.';
+$localisationOfTheProjectAmericanVintage = 'Paris, France.';
 
-$creditsOfTheProjectAmericanVintage = 'Photos: Luc Bertrand';
+$creditsOfTheProjectAmericanVintage = '© Luc Bertrand';
 
 //// Fenêtres sur cours
 
 $pathToImagesFenetreSurCours = 'fenetre_sur_cours';
-$imageAltFenetreSurCours = 'Photo montrant le projet Fenetre sur Cours';
+$imageAltFenetreSurCours = 'Photo montrant le projet Fenetres sur Cours';
 
-$nameOfTheProjectFenetreSurCours = 'fenêtre sur cours';
+$nameOfTheProjectFenetreSurCours = 'fenêtres sur cours';
 $dateOfTheProjectFenetreSurCours = '2019';
 
-$textOfTheProjectFenetreSurCours1 = 'Avec le soutien précieux de: Villa Noailles, Pierre Frey, Codimat, Gubi, Galerie Desprez Breheret, Atelier de la Mousse, Atelier Lorenzi, Centre archéologique du Var, Degrés 960, FRAC PACA, Capag.';
-$localisationOfTheProjectFenetreSurCours = 'Design Parade Toulon, France.';
+$textOfTheProjectFenetreSurCours1 = 'Scenographie - Festival de la Design Parade, Villa Noailles';
+$localisationOfTheProjectFenetreSurCours = 'Toulon, France.';
+$textOfTheProjectFenetreSurCours2 = 'Avec le soutien précieux de: Villa Noailles, Pierre Frey, Codimat, Gubi, Galerie Desprez Breheret, Atelier de la Mousse, Atelier Lorenzi, Centre archéologique du Var, Degrés 960, FRAC PACA, Capag.';
 
-$creditsOfTheProjectFenetreSurCours = 'Photos: Luc Bertrand, Julien Oppenheim.';
+$creditsOfTheProjectFenetreSurCours = '© Luc Bertrand, Julien Oppenheim.';
 
 //// elise djo-bourgeois
 
@@ -141,7 +147,7 @@ $dateOfTheProjectEliseDjoBourgeois = '2018';
 $textOfTheProjectEliseDjoBourgeois1 = 'Scénographie de l’exposition consacrée à la designer textile Elise Djo-Bourgeois.';
 $localisationOfTheProjectEliseDjoBourgeois = 'Villa Noailles, Hyères.';
 
-$creditsOfTheProjectEliseDjoBourgeois = 'Photos: Emile Kirsch.';
+$creditsOfTheProjectEliseDjoBourgeois = '© Emile Kirsch.';
 
 //// federation
 
@@ -155,7 +161,7 @@ $textOfTheProjectFederation1 = 'Scénographie du Showroom Sphère organisé par 
 $textOfTheProjectFederation2 = 'Compositions florales: Debeaulieu';
 $localisationOfTheProjectFederation = 'Palais de Tokyo, Paris.';
 
-$creditsOfTheProjectFederation = 'Photos: Valentin Le Cron.';
+$creditsOfTheProjectFederation = '© Valentin Le Cron.';
 
 //// Haos
 
@@ -168,7 +174,7 @@ $dateOfTheProjectHaos = '2020';
 $textOfTheProjectHaos1 = 'Set design pour la présentation de la nouvelle collection de la marque de mobilier HAOS lors du salon Collectible à Bruxelles.';
 $localisationOfTheProjectHaos = 'Bruxelles, Belgique.';
 
-$creditsOfTheProjectHaos = 'Photos: Evenbeeld.';
+$creditsOfTheProjectHaos = '© Evenbeeld.';
 
 //// Hyeres 34
 
@@ -181,7 +187,7 @@ $dateOfTheProjectHyeres34 = '2019';
 $textOfTheProjectHyeres341 = 'Scénographie pour la soirée de lancement du 34e Festival International de Mode, de Photographie et d’Accessoire de mode d’Hyères organisé par la Villa Noailles.';
 $localisationOfTheProjectHyeres34 = 'Ministère de la Culture, Paris.';
 
-$creditsOfTheProjectHyeres34 = 'Photos: Luc Bertrand.';
+$creditsOfTheProjectHyeres34 = '© Luc Bertrand.';
 
 
 //// Jean Hugo
@@ -195,4 +201,4 @@ $dateOfTheProjectJeanHugo = '2019';
 $textOfTheProjectJeanHugo1 = 'Scénographie de l’exposition consacrée à l’artiste Jean Hugo.';
 $localisationOfTheProjectJeanHugo = 'Villa Noailles, Hyères.';
 
-$creditsOfTheProjectJeanHugo = 'Photos: Julie Liger, Luc Bertrand.';
+$creditsOfTheProjectJeanHugo = '© Julie Liger, Luc Bertrand.';

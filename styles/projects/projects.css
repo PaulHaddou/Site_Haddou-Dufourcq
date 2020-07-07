@@ -97,16 +97,18 @@ html body main .container .grotto .grottoTitles:hover {
 }
 
 html body main .container .americanVintage {
-  display: flex;
   width: var(--Cards-Width);
   height: var(--Cards-Small-Height);
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   position: relative;
 }
 
 html body main .container .americanVintage .americanVintageImage {
-  width: 100%;
-  height: 100%;
+  width: 116.4%;
 }
 
 html body main .container .americanVintage .americanVintageTitles {
@@ -142,16 +144,18 @@ html body main .container .americanVintage .americanVintageTitles:hover {
 }
 
 html body main .container .eliseDjoBourjoie {
-  display: flex;
   width: var(--Cards-Width);
   height: var(--Cards-Tall-Height);
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   position: relative;
 }
 
 html body main .container .eliseDjoBourjoie .eliseDjoBourjoieImage {
-  width: 100%;
-  height: 100%;
+  width: 124.6%;
 }
 
 html body main .container .eliseDjoBourjoie .eliseDjoBourjoieTitles {

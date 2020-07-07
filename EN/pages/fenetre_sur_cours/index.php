@@ -20,7 +20,7 @@
   <?php
     $hrefProjects = '../../';
     $hrefAbout = '../about/';
-    $hrefPublications = '../publications/';
+    $hrefPublications = '../press/';
     $hrefContact = '../contact/';
 
     include '../../../navbar.php';
@@ -69,6 +69,7 @@
             <p class="descriptionContentDate"><?= $dateOfTheProjectFenetreSurCours ?></p>
             <p class="descriptionContentText"><?= $textOfTheProjectFenetreSurCours1 ?></p>
             <p class="descriptionContentLocalisation"><?= $localisationOfTheProjectFenetreSurCours ?></p>
+            <p class="descriptionContentThanks"><?= $textOfTheProjectFenetreSurCours2 ?></p>
             <p class="descriptionContentCredits"> <?= $creditsOfTheProjectFenetreSurCours ?></p>
           </div>
         </div>

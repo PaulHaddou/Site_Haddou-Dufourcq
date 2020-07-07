@@ -13,7 +13,7 @@
     <?php
       $hrefProjects = '#';
       $hrefAbout = 'pages/about/';
-      $hrefPublications = 'pages/publications/';
+      $hrefPublications = 'pages/press/';
       $hrefContact = 'pages/contact/';
 
     if (strpos($_SERVER['REQUEST_URI'], "EN") !== false)

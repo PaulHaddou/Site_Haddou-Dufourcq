@@ -17,8 +17,6 @@
     --Description-Title-Font-Size : 1.2rem;
     --Description-Text-Font-Size : 0.9rem;
 
-
-
 }
 
 
@@ -60,9 +58,9 @@ body
           {
 
           }
-          .descriptionContentText
+          .descriptionContentText:nth-child(0n+3)
           {
-
+            margin-top: -14px;
           }
           .descriptionContentLocalisation
           {
@@ -70,6 +68,7 @@ body
           }
           .descriptionContentCredits
           {
+            margin-top: 28px;
             font-style: italic;
           }
         }
@@ -81,36 +80,37 @@ body
 @media screen and (max-width: 910px) 
 {
   body
-{
-  main 
   {
-    .container 
+  main 
     {
-      .description
+      .container 
       {
-        width : 80%;
-        margin-top: 25px;
-        margin-bottom: 10vh;
-        .descriptionTitle
+        .description
         {
-        }
-        .descriptionContent
-        {
-          .descriptionContentDate
+          width : 80%;
+          margin-top: 25px;
+          margin-bottom: 10vh;
+          .descriptionTitle
           {
           }
-          .descriptionContentText
+          .descriptionContent
           {
-          }
-          .descriptionContentLocalisation
-          {
-          }
-          .descriptionContentCredits
-          {
+            .descriptionContentDate
+            {
+            }
+            .descriptionContentText:nth-child(2)
+            {
+              margin-top: -14px;
+            }
+            .descriptionContentLocalisation
+            {
+            }
+            .descriptionContentCredits
+            {
+            }
           }
         }
       }
     }
   }
-}
 }

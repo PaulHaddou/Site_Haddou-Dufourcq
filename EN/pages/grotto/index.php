@@ -19,7 +19,7 @@
   <?php
     $hrefProjects = '../../';
     $hrefAbout = '../about/';
-    $hrefPublications = '../publications/';
+    $hrefPublications = '../press/';
     $hrefContact = '../contact/';
 
     include '../../../navbar.php';

@@ -72,8 +72,9 @@ body main .container .carousel .carousel--imgs .imgs--all div {
 }
 
 body main .container .carousel .carousel--imgs .imgs--all div img {
-  max-width: 1166px;
   height: 100%;
+  max-width: 1166px;
+  max-height: 660px;
 }
 
 body main .container .carousel .carousel--imgs div div {

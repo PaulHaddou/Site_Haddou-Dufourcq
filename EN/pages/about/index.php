@@ -20,7 +20,7 @@
   <?php
     $hrefProjects = '../../';
     $hrefAbout = '../about/';
-    $hrefPublications = '../publications/';
+    $hrefPublications = '../press/';
     $hrefContact = '../contact/';
 
     include '../../../navbar.php';
@@ -32,7 +32,7 @@
           <p class="aboutDescriptionTexts">
             <?= $aboutParagraph1 ?>
           </p>
-          <p class="aboutDescriptionTexts">
+          <p class="aboutDescriptionTexts aboutDescriptionEN">
             <?= $aboutParagraph2 ?>
           </p>
           <p class="aboutDescriptionTexts">

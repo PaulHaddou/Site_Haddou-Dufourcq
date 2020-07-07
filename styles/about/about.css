@@ -39,6 +39,10 @@ html body main .container .aboutDescription .aboutDescriptionTexts {
   margin-top: 0;
 }
 
+html body main .container .aboutDescription .aboutDescriptionEN {
+  margin-top: -14px;
+}
+
 html body main .container .aboutImg {
   width: 467px;
 }

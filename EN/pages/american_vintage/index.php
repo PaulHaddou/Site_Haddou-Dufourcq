@@ -19,7 +19,7 @@
   <?php
     $hrefProjects = '../../';
     $hrefAbout = '../about/';
-    $hrefPublications = '../publications/';
+    $hrefPublications = '../press/';
     $hrefContact = '../contact/';
 
     include '../../../navbar.php';
@@ -64,6 +64,7 @@
           <div class="descriptionContent">
             <p class="descriptionContentDate"><?= $dateOfTheProjectAmericanVintage ?></p>
             <p class="descriptionContentText"><?= $textOfTheProjectAmericanVintage1 ?></p>
+            <p class="descriptionContentText"><?= $textOfTheProjectAmericanVintage2 ?></p>
             <p class="descriptionContentLocalisation"><?= $localisationOfTheProjectAmericanVintage ?></p>
             <p class="descriptionContentCredits"><?= $creditsOfTheProjectAmericanVintage ?></p>
           </div>
